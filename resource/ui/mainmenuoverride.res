@@ -288,13 +288,12 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MainMenuTop"
 
-		"xpos"			"cs-0.495"
-		"ypos"			"cs-12.7"
+		"xpos"			"cs-0.5"
+		"ypos"			"cs-12"
 		"wide"			"o42"
 
 		"if_wider"
 		{
-			"xpos"			"cs-0.494"
 			"ypos"			"cs-12.2"
 			"wide"			"o40"
 		}
@@ -306,6 +305,8 @@
 		"enabled"		"1"
 		"visible"		"1"
 
+		"proportionaltoparent"	"1"
+
 		"defaultBgColor_override" "Blank"
 		"armedBgColor_override" "Blank"
 
@@ -314,13 +315,14 @@
 			"ControlName"	"Panel"
 			"fieldName"		"TopCap"
 
-			"xpos"			"0"
+			"xpos"			"cs-0.5"
 			"ypos"			"0"
 			"zpos"			"1"
 
 			"tall"			"80"
-			// "wide"			"o2.25"
 			"wide"			"o1.988"
+
+			"proportionaltoparent"	"1"
 
 			"if_wider"
 			{
@@ -353,13 +355,12 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MainMenuBottom"
 
-		"xpos"			"cs-0.494"
-		"ypos"			"cs11.7"
+		"xpos"			"cs-0.5"
+		"ypos"			"cs11"
 		"wide"			"o42"
 
 		"if_wider"
 		{
-			"xpos"			"cs-0.494"
 			"ypos"			"cs11.3"
 			"wide"			"o40"
 		}
@@ -371,6 +372,8 @@
 		"enabled"		"1"
 		"visible"		"1"
 
+		"proportionaltoparent"	"1"
+
 		"defaultBgColor_override" "Blank"
 		"armedBgColor_override" "Blank"
 
@@ -379,7 +382,7 @@
 			"ControlName"	"Panel"
 			"fieldName"		"BottomCap"
 
-			"xpos"			"0"
+			"xpos"			"cs-0.5"
 			"ypos"			"-75"
 			"zpos"			"1"
 
@@ -393,6 +396,8 @@
 
 			"enabled"		"1"
 			"visible"		"1"
+
+			"proportionaltoparent"	"1"
 
 			"border"		"TFFatLineBorder"
 		}
@@ -417,20 +422,17 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"InGameCapTop"
 
-		"xpos"			"cs-0.392"
+		"xpos"			"cs-0.5"
 		"ypos"			"cs-3.13"
 		"zpos"			"-1"
-
-		"if_wider"
-		{
-			"xpos"			"cs-0.397"
-		}
 
 		"wide"			"o8"
 		"tall"			"26"
 
 		"enabled"		"1"
 		"visible"		"1"
+
+		"proportionaltoparent"	"1"
 
 		"defaultBgColor_override" "Blank"
 		"armedBgColor_override" "Blank"
@@ -440,20 +442,17 @@
 			"ControlName"	"Panel"
 			"fieldName"		"TopCap"
 
-			"xpos"			"0"
+			"xpos"			"cs-0.5"
 			"ypos"			"0"
 			"zpos"			"1"
 
 			"tall"			"80"
-			"wide"			"o1.985"
-
-			"if_wider"
-			{
-				"wide"			"o1.97"
-			}
+			"wide"			"o1.97"
 
 			"enabled"		"1"
 			"visible"		"1"
+
+			"proportionaltoparent"	"1"
 
 			"border"		"TFFatLineBorder"
 		}
@@ -478,20 +477,17 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"InGameCapBottom"
 
-		"xpos"			"cs-0.392"
+		"xpos"			"cs-0.5"
 		"ypos"			"cs2.13"
 		"zpos"			"-1"
-
-		"if_wider"
-		{
-			"xpos"			"cs-0.397"
-		}
 
 		"tall"			"26"
 		"wide"			"o8"
 
 		"enabled"		"1"
 		"visible"		"1"
+
+		"proportionaltoparent"	"1"
 
 		"defaultBgColor_override" "Blank"
 		"armedBgColor_override" "Blank"
@@ -501,20 +497,17 @@
 			"ControlName"	"Panel"
 			"fieldName"		"BottomCap"
 
-			"xpos"			"0"
+			"xpos"			"cs-0.5"
 			"ypos"			"-54"
 			"zpos"			"1"
 
 			"tall"			"80"
-			"wide"			"o1.985"
-
-			"if_wider"
-			{
-				"wide"			"o1.97"
-			}
+			"wide"			"o1.97"
 
 			"enabled"		"1"
 			"visible"		"1"
+
+			"proportionaltoparent"	"1"
 
 			"border"		"TFFatLineBorder"
 		}
