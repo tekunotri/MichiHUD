@@ -1,0 +1,4 @@
+exec dashboardfix.cfg
+exec autoexec.cfg
+exec blockvonull.cfg
+exec firstrun.cfg; wait 150; exec michihud.cfg
