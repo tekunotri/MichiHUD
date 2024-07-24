@@ -38,7 +38,7 @@
 
 			"xpos"			"cs-1"
 
-			"wide"			"140"
+			"wide"			"120"
 			"tall"			"37"
 
 			"proportionaltoparent"	"1"
@@ -85,9 +85,8 @@
 
 			"xpos"			"cs"
 
-			"wide"			"140"
+			"wide"			"120"
 			"tall"			"37"
-
 
 			"proportionaltoparent"	"1"
 
@@ -99,7 +98,10 @@
 				"ControlName"	"EditablePanel"
 				"fieldName"		"infill"
 
-				"xpos"			"-10"
+				// "xpos"			"-30"
+				"xpos"			"rs1"
+
+				"proportionaltoparent"	"1"
 
 				"wide"			"150"
 				"tall"			"37"
@@ -192,7 +194,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueScore"
 
-		"xpos"			"c-130"
+		"xpos"			"c-110"
 		"ypos"			"r47"
 		"zpos"			"8"
 
@@ -234,7 +236,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueScoreShadow"
 
-		"xpos"			"c-128"
+		"xpos"			"c-109"
 		"ypos"			"r46"
 		"zpos"			"7"
 
@@ -276,7 +278,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedScore"
 
-		"xpos"			"c57"
+		"xpos"			"c38"
 		"ypos"			"r47"
 		"zpos"			"8"
 
@@ -318,7 +320,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedScoreShadow"
 
-		"xpos"			"c59"
+		"xpos"			"c39"
 		"ypos"			"r46"
 		"zpos"			"7"
 
@@ -359,13 +361,17 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"OutlineImage"
+
 		"xpos"			"c-50"
 		"ypos"			"r127"
 		"zpos"			"9"
+
 		"wide"			"100"
 		"tall"			"50"
+
 		"visible"		"1"
 		"enabled"		"1"
+
 		"image"			"../hud/objectives_flagpanel_carried_outline"
 		"scaleImage"	"1"
 	}
@@ -374,13 +380,17 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"CarriedImage"
+
 		"xpos"			"c-50"
 		"ypos"			"r137"
 		"zpos"			"10"
+
 		"wide"			"100"
 		"tall"			"100"
+
 		"visible"		"0"
 		"enabled"		"1"
+
 		"image"			"../hud/objectives_flagpanel_carried_red"
 		"scaleImage"	"1"
 
@@ -399,17 +409,20 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayingTo"
-		"xpos"			"c-70"
+
+		"xpos"			"cs-0.5"
 		"ypos"			"r28"
 		"zpos"			"4"
+
 		"wide"			"140"
 		"tall"			"30"
+
 		"visible"		"1"
 		"enabled"		"1"
+
 		"labelText"		"#TF_PlayingTo"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
+
 		"font"			"HudFontSmall"
 		"fgcolor"		"TanLight"
 
@@ -438,32 +451,36 @@
 	{
 		"ControlName"	"CTFFlagStatus"
 		"fieldName"		"BlueFlag"
-		"xpos"			"c-135"
+
+		"xpos"			"cs-0.92"
 		"ypos"			"r95"
 		"zpos"			"5"
-		"wide"			"160"
+
+		"wide"			"o1"
 		"tall"			"90"
+
 		"visible"		"1"
 		"enabled"		"1"
 
 		"if_hybrid"
 		{
 			"visible"	"0"
-			"ypos"		"r100"
 		}
 
 		"if_hybrid_single"
 		{
-			"xpos"		"c-80"
+			"xpos"		"cs-0.5"
+			"ypos"		"r120"
 		}
 
 		"if_hybrid_double"
 		{
-			"xpos"		"c-115"
+			"xpos"		"cs-0.92"
 		}
 
 		"if_specialdelivery"
 		{
+			"xpos"		"cs-0.5"
 			"ypos"		"r100"
 		}
 
@@ -477,32 +494,36 @@
 	{
 		"ControlName"	"CTFFlagStatus"
 		"fieldName"		"RedFlag"
-		"xpos"			"c-25"
+
+		"xpos"			"c-6"
 		"ypos"			"r95"
 		"zpos"			"5"
-		"wide"			"160"
+
+		"wide"			"o1"
 		"tall"			"90"
+
 		"visible"		"1"
 		"enabled"		"1"
 
 		"if_hybrid"
 		{
 			"visible"	"0"
-			"ypos"		"r100"
 		}
 
 		"if_hybrid_single"
 		{
-			"xpos"		"c-80"
+			"xpos"		"cs-0.5"
+			"ypos"		"r120"
 		}
 
 		"if_hybrid_double"
 		{
-			"xpos"		"c-45"
+			"xpos"		"c-6"
 		}
 
 		"if_specialdelivery"
 		{
+			"xpos"		"cs-0.5"
 			"ypos"		"r100"
 		}
 
@@ -516,36 +537,76 @@
 	{
 		"ControlName"	"CTFArrowPanel"
 		"fieldName"		"CaptureFlag"
-		"xpos"			"c-40"
-		"ypos"			"r95"
+
+		"xpos"			"cs-0.5"
+		"ypos"			"r90"
 		"zpos"			"5"
-		"wide"			"80"
+
 		"tall"			"80"
+		"wide"			"o1"
+
 		"visible"		"0"
 		"enabled"		"1"
 
-		"if_hybrid"
+		// "if_hybrid"
+		// {
+		// 	"ypos"		"r100"
+		// }
+
+		"if_hybrid_single"
 		{
-			"ypos"		"r100"
+			"ypos"		"r115"
+		}
+
+		"if_hybrid_double"
+		{
+			"ypos"		"r90"
 		}
 
 		"if_specialdelivery"
 		{
-			"ypos"		"r100"
+			"ypos"		"r95"
 		}
 	}
+
+	"SpecCarriedImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"SpecCarriedImage"
+
+		"xpos"			"c-50"
+		"ypos"			"r137"
+		"zpos"			"10"
+
+		"wide"			"100"
+		"tall"			"100"
+
+		"visible"		"0"
+		"enabled"		"1"
+
+		"image"			"../hud/objectives_flagpanel_carried_red"
+		"scaleImage"	"1"
+	}
+
+	//Mannpower "poison effect"
+	//The thing that marks you for death when you carry the intel too long
+	//...I have no idea who is naming these things, but they suck
 
 	"PoisonIcon"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PoisonIcon"
+
 		"xpos"			"cs-0.5"
-		"ypos"			"r75"
+		"ypos"			"r70"
 		"zpos"			"6"
+
 		"wide"			"40"
 		"tall"			"o1"
+
 		"visible"		"0"
 		"enabled"		"1"
+
 		"image"			"marked_for_death"
 		"scaleImage"	"1"
 	}
@@ -554,31 +615,21 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PoisonTimeLabel"
+
 		"xpos"			"cs-0.5"
-		"ypos"			"r65"
+		"ypos"			"r60"
 		"zpos"			"6"
+
 		"wide"			"40"
 		"tall"			"20"
+
 		"visible"		"0"
 		"enabled"		"1"
+
 		"textAlignment"	"center"
-		"labelText"		"%redscore%"
+		"labelText"		"%countdown%"
+
 		"font"			"HudFontMediumBold"
 		"fgcolor"		"TanLight"
-	}
-
-	"SpecCarriedImage"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"SpecCarriedImage"
-		"xpos"			"c-50"
-		"ypos"			"r137"
-		"zpos"			"10"
-		"wide"			"100"
-		"tall"			"100"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"../hud/objectives_flagpanel_carried_red"
-		"scaleImage"	"1"
 	}
 }
