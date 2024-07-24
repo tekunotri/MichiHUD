@@ -69,16 +69,16 @@ event HudLowAmmoPulseStop {
 
 event HudSpyDisguiseFadeIn {
 	RunEvent HudSpyDisguiseChanged	0
-	Animate PlayerStatusSpyImage			Alpha		"255"			Linear 0.9 0.1
-	Animate HudSpellMenu					ypos		r87				Accel 0 0
-	Animate HudItemEffectMeterPowerUp		ypos		r88				Accel 0 0
+	Animate PlayerStatusSpyImage			Alpha		"255"				Linear 0.9 0.1
+	Animate HudSpellMenu					ypos		"r85"				Accel 0 0
+	Animate HudItemEffectMeterPowerUp		ypos		"r88"				Accel 0 0
 }
 
 event HudSpyDisguiseFadeOut {
 	RunEvent HudSpyDisguiseChanged	0
-	Animate PlayerStatusSpyImage			Alpha		"0"				Linear 0.9 0.1
-	Animate HudSpellMenu					ypos		r50				Accel 0 0
-	Animate HudItemEffectMeterPowerUp		ypos		r50				Accel 0 0
+	Animate PlayerStatusSpyImage			Alpha		"0"					Linear 0.9 0.1
+	Animate HudSpellMenu					ypos		"r48"				Accel 0 0
+	Animate HudItemEffectMeterPowerUp		ypos		"r48"				Accel 0 0
 }
 
 //===========================================

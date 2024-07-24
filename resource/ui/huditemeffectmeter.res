@@ -5,17 +5,12 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"HudItemEffectMeter"
 
-		// "xpos"			"r162"
-		// "xpos"			"r202"
-		// "xpos"			"r222"
 		"xpos"			"r173"
 		"ypos"			"r50"
 
 		"x_offset"		"0"
 		"x_offset_minmode"	"0"
 
-		// "wide"			"162"
-		// "tall"			"50"
 		"wide"			"64"
 		"tall"			"24"
 
@@ -31,8 +26,6 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ItemEffectMeterBG"
 
-		// "xpos"			"52"
-		// "ypos"			"2"
 		"xpos"			"3"
 		"ypos"			"3"
 		"zpos"			"0"
@@ -59,8 +52,6 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
 
-		// "xpos"					"60"
-		// "ypos"					"4"
 		"xpos"					"1+4+3"
 		"ypos"					"1+4+3+1"
 		"zpos"					"3"
@@ -89,7 +80,6 @@
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
 
-		// "xpos"					"57"
 		"xpos"					"1+4+3"
 		"ypos"					"1+4+3+1"
 		"zpos"					"2"
