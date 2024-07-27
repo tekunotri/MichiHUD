@@ -5,13 +5,12 @@
 		"Controlname"		"EditablePanel"
 		"fieldname"			"DisguiseStatus"
 
-		"xpos"			"1"
-		"ypos"			"r0-100"
+		"xpos"			"0"
+		"ypos"			"r98"
 		"zpos"			"1"
 
 		"wide"			"p0.5"
 		"tall"			"200"
-		// "tall"			"100"
 
 		"autoResize"		"0"
 		"pinCorner"		"0"

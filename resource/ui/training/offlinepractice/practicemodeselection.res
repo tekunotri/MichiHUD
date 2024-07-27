@@ -4,181 +4,212 @@
 	{
 		"ControlName"	"ImagePanel"
 		"FieldName"		"GameModeImagePanel"
-		"xpos"			"60"
-		"ypos"			"15"
+
+		"xpos"			"cs-0.5"
+		"ypos"			"cs-0.5"
 		"zpos"			"1"
-		"wide"			"250"
-		"tall"			"250"
+
+		"wide"			"o1"
+		"tall"			"200"
+
 		"visible"		"1"
-		"tileImage"		"0"
-		"scaleImage"	"1"
-		"border"		"ButtonBorder"
+
+		"proportionaltoparent"	"1"
+
 		"paintbackgroundtype"	"2"
 		"paintbackground"	"1"
+
+		"tileImage"		"0"
+		"scaleImage"	"1"
+
+		"border"		"ButtonBorder"
 	}
-	
+
 	"GameModeImageBgPanel"
 	{
 		"ControlName"	"ImagePanel"
 		"FieldName"		"GameModeImageBgPanel"
-		"xpos"			"60"
+
+		"xpos"			"cs-0.5"
+		"ypos"			"cs-0.5"
 		"zpos"			"0"
-		"wide"			"330"
-		"tall"			"255"
+
+		"wide"			"o1.5"
+		"tall"			"200"
+
 		"visible"		"1"
+
+		"proportionaltoparent"	"1"
+
 		"tileImage"		"0"
 		"scaleImage"	"1"
+
 		"image"			"illustrations/bg"
 	}
-	
+
 	"PrevButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"PrevButton"
-		"xpos"			"36"
-		"ypos"			"105"
+
+		"xpos"			"s1"
+		"ypos"			"cs-0.5"
 		"zpos"			"20"
+
 		"wide"			"18"
 		"tall"			"43"
-		"autoResize"	"0"
-		"pinCorner"		"0"
+
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"#TF_LessThan"
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
-		"textinsetx"	"0"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"Command"		"goprev"
+
+		"Command"			"goprev"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+
+		"proportionaltoparent"	"1"
 
 		"defaultBgColor_override"	"Blank"
 		"armedBgColor_override"		"Blank"
 
 		"border_default"	"TFFatLineBorder"
 		"border_armed"		"TFFatLineBorderDevBG"
-	}	
-	
+
+		"labelText"		"#TF_LessThan"
+		"font"			"HudFontSmallBold"
+		"textAlignment"	"center"
+	}
+
 	"NextButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"NextButton"
-		"xpos"			"396"
-		"ypos"			"105"
+
+		"xpos"			"rs2"
+		"ypos"			"cs-0.5"
 		"zpos"			"20"
+
 		"wide"			"18"
 		"tall"			"43"
-		"autoResize"	"0"
-		"pinCorner"		"0"
+
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"#TF_GreaterThan"
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
-		"textinsetx"	"0"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"Command"		"gonext"
+
+		"Command"			"gonext"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+
+		"proportionaltoparent"	"1"
 
 		"defaultBgColor_override"	"Blank"
 		"armedBgColor_override"		"Blank"
 
 		"border_default"	"TFFatLineBorder"
 		"border_armed"		"TFFatLineBorderDevBG"
-	}	
-	
+
+		"labelText"		"#TF_GreaterThan"
+		"font"			"HudFontSmallBold"
+		"textAlignment"	"center"
+	}
+
 	"GameModeLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"GameModeLabel"
+
+		"xpos"			"cs-0.5"
+		"ypos"			"c-100"
+
+		"wide"			"330"
+		"tall"			"20"
+
+		"visible"		"1"
+		"enabled"		"1"
+
+		"proportionaltoparent"	"1"
+
 		"font"			"HudFontMediumSmallBold"
 		"labelText"		"%gamemode%"
 		"textAlignment"	"center"
-		"xpos"			"60"
-		"ypos"			"10"
-		"wide"			"330"
-		"tall"			"20"
-		"autoResize"	"1"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"wrap"			"0"
 		"fgcolor_override"	"83 75 66 255"
 	}
-	
+
 	"CurPageLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurPageLabel"
-		"font"			"HudFontSmallBold"
-		"labelText"		"%curpage%"
-		"textAlignment"	"north"
-		"xpos"			"70"
-		"ypos"			"10"
+
+		"xpos"			"c-145"
+		"ypos"			"c-100"
 		"zpos"			"1"
+
 		"wide"			"40"
 		"tall"			"20"
-		"autoResize"	"1"
-		"pinCorner"		"0"
+
 		"visible"		"1"
 		"enabled"		"1"
+
+		"proportionaltoparent"	"1"
+
 		"wrap"			"1"
+
+		"font"			"HudFontSmallBold"
+		"labelText"		"%curpage%"
+		"textAlignment"	"north-east"
 		"fgcolor_override"	"83 75 66 255"
 	}
-	
+
 	"DescLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DescLabel"
+
+		"xpos"			"cs-0.5"
+		"ypos"			"c80"
+
+		"wide"			"330"
+		"tall"			"20"
+
+		"visible"		"1"
+		"enabled"		"1"
+
+		"proportionaltoparent"	"1"
+
 		"font"			"HudFontSmallest"
 		"labelText"		"%description%"
 		"textAlignment"	"center"
-		"xpos"			"60"
-		"ypos"			"230"
-		"wide"			"330"
-		"tall"			"20"
-		"autoResize"	"1"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"wrap"			"0"
 		"fgcolor_override"	"83 75 66 255"
 	}
-	
+
 	"SelectCurrentGameModeButton"
 	{
-		"ControlName"		"CExButton"
-		"fieldName"			"SelectCurrentGameModeButton"
-		"xpos"				"160"
-		"ypos"				"260"
-		"wide"				"130"
-		"tall"				"30"
-		"autoResize"		"0"
-		"pinCorner"			"0"
-		"visible"			"1"
-		"enabled"			"1"
-		"tabPosition"		"0"
-		"labelText"			"#TF_Select"
-		"font"				"HudFontSmallBold"
-		"textAlignment"		"center"
-		"textinsetx"		"50"
-		"dulltext"			"0"
-		"brighttext"		"0"
+		"ControlName"	"CExButton"
+		"fieldName"		"SelectCurrentGameModeButton"
+
+		"xpos"			"cs-0.5"
+		"ypos"			"c109"
+		"zpos"			"1005"
+
+		"wide"			"170"
+		"tall"			"20"
+
+		"visible"		"1"
+		"enabled"		"1"
+
+		"Default"			"1"
 		"Command"			"selectcurrentgamemode"
+
+		"paintbackground"	"0"
+		"paintborder"		"1"
+		"proportionaltoparent"	"1"
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"defaultBgColor_override"	"Blank"
-		"armedBgColor_override"		"Blank"
-
-		"border_default"	"TFFatLineBorder"
+		"border_default"	"TFFatLineBorderOpaque"
 		"border_armed"		"TFFatLineBorderGreenBG"
+
+		"textAlignment"		"center"
+		"font"				"HudFontMediumSmallBold"
+		"labeltext"			"#TF_Select"
 	}
-	
 }

@@ -2,12 +2,6 @@
 
 "Resource/UI/MatchMakingDashboardCasualCriteria.res"
 {
-	"Background"
-	{
-		"paintborder"	"1"
-		"border"		"TFFatLineBorderOpaque"
-	}
-
 	"Title"
 	{
 		"labeltext"		"#TF_Matchmaking_HeaderMvM"
@@ -33,21 +27,10 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MannUpGroupBox"
 
-		//Wide
-		// "xpos"			"c0-175"
-		// "ypos"			"c0-117"
-
-		//Tall
 		"xpos"			"c0-175"
 		"ypos"			"c0-117"
-
 		"zpos"			"1003"
 
-		//Wide
-		// "wide"			"355"
-		// "tall"			"120"
-
-		//Tall
 		"wide"			"170"
 		"tall"			"242"
 
@@ -61,11 +44,10 @@
 			"ControlName"		"Panel"
 			"Fieldname"			"Header"
 
-			"xpos"		"3"
-			"ypos"		"3"
-			"zpos"		"3"
+			"xpos"				"3"
+			"ypos"				"3"
+			"zpos"				"3"
 
-			// "wide"				"350"
 			"wide"				"165"
 
 			"tall"				"25"
@@ -81,12 +63,10 @@
 			"ControlName"	"Label"
 			"Fieldname"		"HeaderLabel"
 
-			"zpos"		"4"
+			"zpos"			"4"
 
-			// "wide"			"355"
 			"wide"			"170"
-
-			"tall"		"30"
+			"tall"			"30"
 
 			"labeltext"		"#TF_MvM_MannUp"
 			"fgcolor_override"	"ProgressOffWhite"
@@ -103,13 +83,9 @@
 			"ypos"		"23"
 			"zpos"		"2"
 
-			// "wide"				"350"
 			"wide"				"165"
-
-			// "tall"		"95"
 			"tall"		"217"
 
-			// "image"		"mvm/mannup"
 			"image"		"logos/ui/matchmaking/mannup"
 			"scaleimage"	"1"
 			"tileImage"		"1"
@@ -120,21 +96,17 @@
 
 		"PlayNowButton"
 		{
-			"ControlName"	"Button"
-			"Fieldname"		"PlayNowButton"
+			"ControlName"		"Button"
+			"Fieldname"			"PlayNowButton"
 
-			"xpos"		"1"
-			"ypos"		"1"
-			"zpos"		"5"
+			"xpos"				"1"
+			"ypos"				"1"
+			"zpos"				"5"
 
-			// "tall"		"118"
-			// "wide"		"353"
+			"tall"				"240"
+			"wide"				"168"
 
-			"tall"		"240"
-			"wide"		"168"
-			
-
-			"command"	"mannup"
+			"command"			"mannup"
 			"actionsignallevel"	"2"
 
 			"defaultBgColor_override"	"Blank"
@@ -152,21 +124,10 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PracticeGroupBox"
 
-		//Wide
-		// "xpos"			"c0-175"
-		// "ypos"			"c5"
-
-		//Tall
 		"xpos"			"c5"
 		"ypos"			"c0-117"
-
 		"zpos"			"1003"
 
-		//Wide
-		// "wide"			"355"
-		// "tall"			"120"
-
-		//Tall
 		"wide"			"170"
 		"tall"			"242"
 
@@ -177,17 +138,15 @@
 
 		"Header"
 		{
-			"ControlName"		"Panel"
-			"Fieldname"			"Header"
+			"ControlName"	"Panel"
+			"Fieldname"		"Header"
 
-			"xpos"		"3"
-			"ypos"		"3"
-			"zpos"		"3"
+			"xpos"			"3"
+			"ypos"			"3"
+			"zpos"			"3"
 
-			// "wide"				"350"
-			"wide"				"165"
-
-			"tall"				"25"
+			"wide"			"165"
+			"tall"			"25"
 
 			"bgcolor_override"	"Black"
 
@@ -200,12 +159,10 @@
 			"ControlName"	"Label"
 			"Fieldname"		"HeaderLabel"
 
-			"zpos"		"4"
+			"zpos"			"4"
 
-			// "wide"			"355"
 			"wide"			"170"
-
-			"tall"		"30"
+			"tall"			"30"
 
 			"labeltext"		"#TF_MvM_BootCamp"
 			"fgcolor_override"	"ProgressOffWhite"
@@ -218,15 +175,12 @@
 			"ControlName"	"ImagePanel"
 			"Fieldname"		"EntryImage"
 
-			"xpos"		"3"
-			"ypos"		"23"
-			"zpos"		"2"
+			"xpos"			"3"
+			"ypos"			"23"
+			"zpos"			"2"
 
-			// "wide"				"350"
-			"wide"				"165"
-
-			// "tall"		"95"
-			"tall"		"217"
+			"wide"			"165"
+			"tall"			"217"
 
 			"image"		"mvm/bootcamp"
 			"scaleimage"	"1"
@@ -241,17 +195,14 @@
 			"ControlName"	"Button"
 			"Fieldname"		"PracticeButton"
 
-			"xpos"		"1"
-			"ypos"		"1"
-			"zpos"		"5"
+			"xpos"			"1"
+			"ypos"			"1"
+			"zpos"			"5"
 
-			// "tall"		"118"
-			// "wide"		"353"
+			"tall"			"240"
+			"wide"			"168"
 
-			"tall"		"240"
-			"wide"		"168"
-
-			"command"	"bootcamp"
+			"command"		"bootcamp"
 			"actionsignallevel"	"2"
 
 			"defaultBgColor_override"	"Blank"

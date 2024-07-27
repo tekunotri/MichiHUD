@@ -4,75 +4,64 @@
 	{
 		"ControlName"	"ImagePanel"
 		"FieldName"		"MapImagePanel"
-		"xpos"			"60"
+
+		"xpos"			"0"
+		"ypos"			"cs-0.75"
 		"zpos"			"0"
-		"wide"			"330"
-		"tall"			"330"
+
+		"wide"			"o1"
+		"tall"			"250"
+
 		"visible"		"1"
-		"tileImage"		"0"
-		"scaleImage"	"1"
-		"border"		"ButtonBorder"
+
 		"paintbackgroundtype"	"2"
 		"paintbackground"	"1"
+
+		"border"		"ButtonBorder"
+
+		"tileImage"		"0"
+		"scaleImage"	"1"
 	}
 
-	// "HackCoverBottomOfMapImagePanel"
-	// {
-	// 	"ControlName"	"EditablePanel"
-	// 	// "fieldName"		"MapImagePanel"
-	// 	"fieldName"		"HackCoverBottomOfMapImagePanel"
-	// 	"xpos"		"60"
-	// 	"ypos"		"320"
-	// 	"wide"		"330"
-	// 	"tall"		"15"
-	// 	"autoResize"		"0"
-	// 	"pinCorner"		"0"
-	// 	"visible"		"1"
-	// 	"enabled"		"1"
-	// 	"tabPosition"		"0"
-	// 	"bgcolor_override"	"40 37 37 255"
-	// }
-	
 	"GradientPanel"
 	{
 		"ControlName"	"ImagePanel"
 		"FieldName"		"GradientPanel"
+
 		"xpos"			"60"
 		"ypos"			"107"
 		"zpos"			"1"
+
 		"wide"			"330"
 		"tall"			"80"
-		"visible"		"1"
+
+		"visible"		"0"
+
 		"tileImage"		"0"
 		"scaleImage"	"1"
 		"image"			"training/gradient_black"
 	}
-	
+
 	"PrevButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"PrevButton"
 
-		"xpos"			"36"
-		"ypos"			"65"
+		"xpos"			"s1"
+		"ypos"			"cs-0.5"
 		"zpos"			"20"
 
 		"wide"			"18"
 		"tall"			"43"
 
-		"autoResize"	"0"
-		"pinCorner"		"0"
-
 		"visible"		"1"
 		"enabled"		"1"
 
-		"tabPosition"	"0"
+		"proportionaltoparent"	"1"
+
 		"labelText"		"#TF_LessThan"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		"textinsetx"	"0"
-		"dulltext"		"0"
-		"brighttext"	"0"
 
 		"Command"		"goprev"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -83,33 +72,28 @@
 
 		"border_default"	"TFFatLineBorder"
 		"border_armed"		"TFFatLineBorderDevBG"
-	}	
-	
+	}
+
 	"NextButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"NextButton"
 
-		"xpos"			"396"
-		"ypos"			"65"
+		"xpos"			"rs2"
+		"ypos"			"cs-0.5"
 		"zpos"			"20"
 
 		"wide"			"18"
 		"tall"			"43"
 
-		"autoResize"	"0"
-		"pinCorner"		"0"
-
 		"visible"		"1"
 		"enabled"		"1"
 
-		"tabPosition"	"0"
+		"proportionaltoparent"	"1"
+
 		"labelText"		"#TF_GreaterThan"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		"textinsetx"	"0"
-		"dulltext"		"0"
-		"brighttext"	"0"
 
 		"Command"		"gonext"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -120,195 +104,210 @@
 
 		"border_default"	"TFFatLineBorder"
 		"border_armed"		"TFFatLineBorderDevBG"
-	}	
-	
+	}
+
 	"MapNameLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"MapNameLabel"
+
+		"xpos"			"cs-0.5"
+		"ypos"			"155"
+		"zpos"			"2"
+
+		"wide"			"330"
+		"tall"			"40"
+
+		"visible"		"1"
+		"enabled"		"1"
+
+		"proportionaltoparent"	"1"
+
 		"font"			"HudFontMedium"
 		"labelText"		"%mapname%"
 		"textAlignment"	"center"
-		"xpos"			"60"
-		"ypos"			"145"
-		"zpos"			"2"
-		"wide"			"330"
-		"tall"			"40"
-		"autoResize"	"1"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"wrap"			"0"
 		"fgcolor_override"	"246 237 211 255"
 	}
-	
+
 	"CurPageLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurPageLabel"
+
+		"xpos"			"cs-0.5"
+		"ypos"			"55"
+		"zpos"			"100"
+
+		"wide"			"33"
+		"tall"			"18"
+
+		"visible"		"1"
+		"enabled"		"1"
+
+		"proportionaltoparent"	"1"
+
+		"bgcolor_override"	"0 0 0 200"
+		"border"		"ButtonBorder"
+
 		"font"			"HudFontMediumSmallBold"
 		"labelText"		"%curpage%"
 		"textAlignment"	"north"
-		"center"		"1"
-		"xpos"			"63"
-		"ypos"			"3"
-		"zpos"			"100"
-		"wide"			"33"
-		"tall"			"18"
-		"autoResize"	"1"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"wrap"			"0"
 		"fgcolor_override"	"246 237 211 255"
-		"bgcolor_override"	"0 0 0 200"
-		"border"		"ButtonBorder"
 	}
-	
+
 	"StartOfflinePracticeButton"
 	{
-		"ControlName"		"CExButton"
-		"fieldName"			"StartOfflinePracticeButton"
-		"xpos"				"150"
-		"ypos"				"260"
-		"wide"				"150"
-		"tall"				"30"
-		"autoResize"		"0"
-		"pinCorner"			"0"
-		"visible"			"1"
-		"enabled"			"1"
-		"tabPosition"		"0"
-		"labelText"			"#TF_StartPractice"
-		"font"				"HudFontSmallBold"
-		"textAlignment"		"center"
-		"textinsetx"		"50"
-		"dulltext"			"0"
-		"brighttext"		"0"
+		"ControlName"	"CExButton"
+		"fieldName"		"StartOfflinePracticeButton"
+
+		"xpos"			"cs-0.5"
+		"ypos"			"c109"
+		"zpos"			"1005"
+
+		"wide"			"170"
+		"tall"			"20"
+
+		"visible"		"1"
+		"enabled"		"1"
+
+		"Default"			"1"
 		"Command"			"startofflinepractice"
+
+		"paintbackground"	"0"
+		"paintborder"		"1"
+		"proportionaltoparent"	"1"
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"defaultBgColor_override"	"Blank"
-		"armedBgColor_override"		"Blank"
-
-		"border_default"	"TFFatLineBorder"
+		"border_default"	"TFFatLineBorderOpaque"
 		"border_armed"		"TFFatLineBorderGreenBG"
+
+		"textAlignment"		"center"
+		"font"				"HudFontMediumSmallBold"
+		"labeltext"			"#TF_StartPractice"
 	}
-	
+
 	"DifficultyLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DifficultyLabel"
+
+		"xpos"			"0"
+		"ypos"			"200"
+
+		"wide"			"190"
+		"tall"			"20"
+
+		"visible"		"1"
+		"enabled"		"1"
+
 		"font"			"HudFontSmallest"
 		"labelText"		"#TF_Bot_Difficulty"
 		"textAlignment"	"east"
-		"xpos"			"0"
-		"ypos"			"200"
-		"wide"			"190"
-		"tall"			"20"
-		"autoResize"	"1"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"wrap"			"0"
 		"fgcolor_override"	"246 237 211 255"
 	}
-	
+
 	"DifficultyComboBox"
 	{
 		"ControlName"		"ComboBox"
 		"fieldName"			"DifficultyComboBox"
-		"Font"				"HudFontSmallestBold"
+
 		"xpos"				"200"
 		"ypos"				"200"
 		"zpos"				"1"
+
 		"wide"				"100"
 		"tall"				"20"
-		"autoResize"		"0"
-		"pinCorner"			"0"
+
 		"visible"			"1"
 		"enabled"			"1"
-		"tabPosition"		"1"
+
+		//No idea
 		"textHidden"		"0"
 		"editable"			"0"
 		"maxchars"			"-1"
 		"NumericInputOnly"	"0"
 		"unicode"			"0"
-		"textinsetx"		"50"
-		
+
 		"fgcolor_override"	"246 237 211 255"
 		"bgcolor_override"	"16 14 14 255"
-		
+
 		"disabledFgColor_override" "235 226 202 255"
 		"disabledBgColor_override" "51 47 46 255"
 		"selectionColor_override" "51 47 46 255"
 		"selectionTextColor_override" "235 226 202 255"
 		"defaultSelectionBG2Color_override" "51 47 46 255"
+
+		"Font"				"HudFontSmallestBold"
+		"textinsetx"		"50"
 	}
-	
+
 	"PlayersLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayersLabel"
+
+		"xpos"			"0"
+		"ypos"			"230"
+
+		"wide"			"190"
+		"tall"			"20"
+
+		"visible"		"1"
+		"enabled"		"1"
+
 		"font"			"HudFontSmallest"
 		"labelText"		"#IT_BotAddition_Title"
 		"textAlignment"	"east"
-		"xpos"			"0"
-		"ypos"			"230"
-		"wide"			"190"
-		"tall"			"20"
-		"autoResize"	"1"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"wrap"			"0"
 		"fgcolor_override"	"246 237 211 255"
 	}
-	
+
 	"NumPlayersTextEntry"
 	{
 		"ControlName"	"TextEntry"
 		"fieldName"		"NumPlayersTextEntry"
+
+		"xpos"			"200"
+		"ypos"			"230"
+		"zpos"			"50"
+
+		"wide"			"22"
+		"tall"			"15"
+
+		"visible"		"1"
+		"enabled"		"1"
+
+		"maxchars"		"2"
+		"NumericInputOnly"	"1"
+		"selectallonfirstfocus"	"1"
+
+		"bgcolor_override"	"16 14 14 255"
+		"fgcolor_override"	"246 237 211 255"
+
 		"font"			"HudFontSmallest"
 		"textHidden"	"0"
 		"textAlignment"	"west"
 		"unicode"		"1"
-		"wrap"			"0"
-		"xpos"			"200"
-		"ypos"			"230"
-		"zpos"			"50"
-		"wide"			"22"
-		"tall"			"15"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"maxchars"		"2"
-		"NumericInputOnly"	"1"
-		"selectallonfirstfocus"	"1"
-		
-		"bgcolor_override"	"16 14 14 255"
-		"fgcolor_override"	"246 237 211 255"
 	}
-	
+
 	"SuggestedPlayerCountLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SuggestedPlayerCountLabel"
-		"font"			"HudFontSmallest"
-		"labelText"		""
-		"textAlignment"	"west"
+
 		"xpos"			"230"
 		"ypos"			"230"
 		"zpos"			"2"
+
 		"wide"			"100"
 		"tall"			"15"
-		"autoResize"	"1"
-		"pinCorner"		"0"
+
 		"visible"		"1"
 		"enabled"		"1"
-		"wrap"			"0"
-		// "fgcolor_override"	"116 105 92 255"
+
+		"font"			"HudFontSmallest"
+		"labelText"		""
+		"textAlignment"	"west"
 	}
 }

@@ -15,13 +15,12 @@
 		"visible"		"1"
 		"enabled"		"1"
 
-		"fgcolor"		"TanLight"
-		"font"			"HudFontSmallBold"
-		// "font"			"HudFontSmallestBold"
-		"textAlignment"	"center"	
 		"labelText"		"%currency%"
-	}	
-	
+		"textAlignment"	"center"
+		"font"			"HudFontSmallBold"
+		"fgcolor"		"TanLight"
+	}
+
 	"CurrencyShadow"
 	{
 		"ControlName"	"CExLabel"
@@ -37,11 +36,10 @@
 		"visible"		"1"
 		"enabled"		"1"
 
-		"fgcolor"		"Black"
-		"font"			"HudFontSmallBold"
-		// "font"			"HudFontSmallestBold"
-		"textAlignment"	"center"	
 		"labelText"		"%currency%"
+		"textAlignment"	"center"
+		"font"			"HudFontSmallBold"
+		"fgcolor"		"Black"
 	}
 
 	"Background"

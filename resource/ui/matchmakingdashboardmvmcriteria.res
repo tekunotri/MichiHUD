@@ -10,7 +10,6 @@
 
 	"Title"
 	{
-		// "labeltext"		"#TF_MvM_MannUp"
 		"labeltext"		" "
 	}
 
@@ -34,19 +33,10 @@
 		"ControlName"	"CMVMCriteriaPanel"
 		"fieldName"		"criteria"
 
-		// "xpos"			"5"
-		// "ypos"			"15"
-		// "zpos"			"100"
-
 		"xpos"			"cs-0.5"
-		// "ypos"			"c0-150"
 		"zpos"			"1003"
 
-		// "wide"			"410"
-		// "tall"			"f50"
 		"wide"			"400"
-		// "tall"			"300"
-		// "tall"			"480"
 		"tall"			"390"
 
 		"visible"		"1"
@@ -60,36 +50,41 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"MannUpQueueButton"
 
-		// "xpos"			"106"
-		// "ypos"			"rs1-8"
-		"xpos"			"c0-85"
+		"xpos"			"cs-0.5"
 		"ypos"			"c123"
 		"zpos"			"1005"
 
 		"wide"			"170"
 		"tall"			"20"
 
-		"autoResize"	"0"
-		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
-		"font"			"HudFontMediumSmallBold"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"Command"		"start_search"
-		"proportionaltoparent"	"1"
-		"labeltext"		"#TF_Matchmaking_StartSearch"
-		"mouseinputenabled"	"1"
+
+		"autoResize"	"0"
+		"pinCorner"		"3"
+
+		"mouseinputenabled"		"1"
 		"keyboardinputenabled"	"0"
+
+		"Default"			"1"
+		"Command"			"start_search"
 		"actionsignallevel"	"1"
+
+		"paintbackground"	"0"
+		"paintborder"		"1"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"armedBgColor_override"		"CreditsGreen"
-		"defaultBgColor_override"	"GreenSolid"
+		"border"			"TFFatLineBorderOpaque"
+		"border_default"	"TFFatLineBorderOpaque"
+		"border_disabled"	"TFFatLineBorderOpaque"
+		"border_armed"		"TFFatLineBorderGreenBG"
+		"border_selected"	"TFFatLineBorderGreenBG"
+
+		"textAlignment"		"center"
+		"font"				"HudFontMediumSmallBold"
+		"labeltext"			"#TF_Matchmaking_StartSearch"
 	}
 
 	"BootCampQueueButton"
@@ -97,34 +92,43 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"BootCampQueueButton"
 
-		"xpos"			"cs-0.5"
+		// "xpos"			"cs-0.5"
+		"xpos"			"cs-0.67"
 		"ypos"			"c123"
 		"zpos"			"1005"
 
-		"wide"			"380"
+		// "wide"			"380"
+		"wide"			"285" //Making MvM queue buttons narrower for now, due to that stupid 'Join game in progress' thing
 		"tall"			"20"
+
+		"visible"		"1"
+		"enabled"		"1"
 
 		"autoResize"	"0"
 		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"font"			"HudFontMediumSmallBold"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"Command"		"start_search"
-		"proportionaltoparent"	"1"
-		"labeltext"		"#TF_Matchmaking_StartSearch"
-		"mouseinputenabled"	"1"
+
+		"mouseinputenabled"		"1"
 		"keyboardinputenabled"	"0"
+
+		"Default"			"1"
+		"Command"			"start_search"
 		"actionsignallevel"	"1"
 
+		"paintbackground"	"0"
+		"paintborder"		"1"
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"armedBgColor_override"		"CreditsGreen"
-		"defaultBgColor_override"	"GreenSolid"
+		"border"			"TFFatLineBorderOpaque"
+		"border_default"	"TFFatLineBorderOpaque"
+		"border_disabled"	"TFFatLineBorderOpaque"
+		"border_armed"		"TFFatLineBorderGreenBG"
+		"border_selected"	"TFFatLineBorderGreenBG"
+
+		"textAlignment"		"center"
+		"font"				"HudFontMediumSmallBold"
+		"labeltext"			"#TF_Matchmaking_StartSearch"
 	}
 
 	"BackButton"
@@ -139,74 +143,42 @@
 		"wide"			"90"
 		"tall"			"20"
 
-		"autoResize"	"0"
-		"pinCorner"		"3"
-
 		"visible"		"1"
 		"enabled"		"1"
-
-		"tabPosition"	"0"
-		"font"			"HudFontMediumSmallBold"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"Command"		"back"
-		"proportionaltoparent"	"1"
-		"labeltext"		"#TF_Matchmaking_Back"
-		"mouseinputenabled"	"1"
-		"keyboardinputenabled"	"0"
-		//"actionsignallevel"	"1"
-
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-	}
-
-	"BackButton"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"BackButton"
-
-		// "xpos"			"6"
-		// // "ypos"			"rs1-8"
-		// "ypos"			"0"
-		// "zpos"			"100"
-
-		"xpos"			"c0-190"
-		"ypos"			"c123"
-		"zpos"			"1005"
-
-		"wide"			"90"
-		"tall"			"20"
 
 		"autoResize"	"0"
 		"pinCorner"		"3"
 
-		"visible"		"1"
-		"enabled"		"1"
-
-		"tabPosition"	"0"
-		"font"			"HudFontMediumSmallBold"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"Command"		"back"
-		"proportionaltoparent"	"1"
-		"labeltext"		"#TF_Matchmaking_Back"
-		"mouseinputenabled"	"1"
+		"mouseinputenabled"		"1"
 		"keyboardinputenabled"	"0"
-		//"actionsignallevel"	"1"
+
+		"Command"			"back"
+		"actionsignallevel"	"1"
+
+		"paintbackground"	"0"
+		"paintborder"		"1"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+
+		"border"			"TFFatLineBorderOpaque"
+		"border_default"	"TFFatLineBorderOpaque"
+		"border_disabled"	"TFFatLineBorderOpaque"
+		"border_armed"		"TFFatLineBorderRedBG"
+		"border_selected"	"TFFatLineBorderRedBG"
+
+		"textAlignment"		"center"
+		"font"				"HudFontMediumSmallBold"
+		"labeltext"			"#TF_Matchmaking_Back"
 	}
 
 	"JoinLateCheckButton"
 	{
-		"ControlName"		"CheckButton"
+		"ControlName"	"CheckButton"
 
-		"xpos"		"c100"
-		"ypos"		"c123"
-		"zpos"		"1004"
+		"xpos"			"c100"
+		"ypos"			"c123"
+		"zpos"			"1004"
 
 		"wide"			"90"
 		"tall"			"20"
@@ -214,21 +186,20 @@
 
 	"JoinLateLabel"
 	{
-		"ControlName"		"Label"
+		"ControlName"	"Label"
 		"fieldName"		"JoinLateLabel"
 
-		"xpos"		"c130"
-		"ypos"		"c123"
-		"zpos"		"1004"
+		"xpos"			"c130"
+		"ypos"			"c123"
+		"zpos"			"1004"
 
-		"wide"		"80"
-		"tall"		"20"
+		"wide"			"80"
+		"tall"			"20"
 
-		"wrap"		"1"
+		"wrap"			"1"
 
 		"font"			"HudFontSmallest"
 		"labelText"		"#TF_Matchmaking_JoinInProgress"
-		// "proportionaltoparent"	"1"
 	}
 
 	"NextButton"
@@ -236,33 +207,42 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"NextButton"
 
-		"xpos"			"cs-0.5"
+		// "xpos"			"cs-0.5"
+		"xpos"			"cs-0.67"
 		"ypos"			"c123"
 		"zpos"			"1005"
 
-		"wide"			"380"
+		// "wide"			"380"
+		"wide"			"285" //Making MvM queue buttons narrower for now, due to that stupid 'Join game in progress' thing
 		"tall"			"20"
-
-		"autoResize"	"0"
-		"pinCorner"		"3"
 
 		"visible"		"1"
 		"enabled"		"1"
 
-		"tabPosition"	"0"
-		"font"			"HudFontMediumSmallBold"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		"autoResize"	"0"
+		"pinCorner"		"3"
 
-		"Command"		"select_tour"
-		"proportionaltoparent"	"1"
-		"labeltext"		"#TF_MvM_SelectChallenge"
-		"mouseinputenabled"	"1"
+		"mouseinputenabled"		"1"
 		"keyboardinputenabled"	"0"
-		//"actionsignallevel"	"1"
+
+		"Default"			"1"
+		"Command"			"select_tour"
+		"actionsignallevel"	"1"
+
+		"paintbackground"	"0"
+		"paintborder"		"1"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+
+		"border"			"TFFatLineBorderOpaque"
+		"border_default"	"TFFatLineBorderOpaque"
+		"border_disabled"	"TFFatLineBorderOpaque"
+		"border_armed"		"TFFatLineBorderGreenBG"
+		"border_selected"	"TFFatLineBorderGreenBG"
+
+		"textAlignment"		"center"
+		"font"				"HudFontMediumSmallBold"
+		"labeltext"			"#TF_MvM_SelectChallenge"
 	}
 }

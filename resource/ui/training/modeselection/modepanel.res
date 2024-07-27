@@ -7,140 +7,147 @@
 
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"105"
+		"zpos"			"1003"
 
-		"wide"			"200"
-		"tall"			"205"
+		"tall"			"242"
+		"wide"			"170"
 
-		"visible"		"1"
 		"enabled"		"1"
+		"visible"		"1"
 
-		"mouseinputenabled" "0"
+		"border"		"TFFatLineBorder"
+
+		"proportionaltoparent"	"1"
+
+		"Header"
+		{
+			"ControlName"		"Panel"
+			"Fieldname"			"Header"
+
+			"xpos"				"3"
+			"ypos"				"3"
+			"zpos"				"3"
+
+			"wide"				"165"
+			"tall"				"25"
+
+			"bgcolor_override"	"Black"
+
+			"PaintBackgroundType"	"2"
+			"roundedcorners"	"03"
+		}
 
 		"ModeNameLabel"
 		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"ModeNameLabel"
+			"ControlName"	"Label"
+			"Fieldname"		"ModeNameLabel"
 
-			"xpos"			"0"
-			"ypos"			"7"
-			"zpos"			"2"
+			"zpos"			"4"
 
-			"wide"			"200"
-			"tall"			"25"
+			"wide"			"170"
+			"tall"			"30"
 
-			"visible"		"1"
-			"enabled"		"1"
-
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			
-			"mouseinputenabled" "0"
+			"labeltext"		"%modename%"
 			"fgcolor_override"	"ProgressOffWhite"
-			
-			"font"			"HudFontSmallBold"
-			"labelText"		"%modename%"
+			"font"			"HudFontSmall"
 			"textAlignment"	"center"
+		}
+
+		"Footer"
+		{
+			"ControlName"		"Panel"
+			"Fieldname"			"Footer"
+
+			"xpos"				"3"
+			"ypos"				"rs1-3"
+			"zpos"				"3"
+
+			"wide"				"165"
+			"tall"				"25"
+
+			"bgcolor_override"	"Black"
+
+			"PaintBackgroundType"	"2"
+			"roundedcorners"	"8"
+
+			"proportionaltoparent"	"1"
 		}
 
 		"DescLabel"
 		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"DescLabel"
+			"ControlName"	"Label"
+			"Fieldname"		"DescLabel"
 
-			"xpos"			"0"
-			"ypos"			"175"
-			"zpos"			"2"
+			"ypos"			"rs1"
+			"zpos"			"4"
 
-			"wide"			"200"
-			"tall"			"55"
-			
-			"visible"		"1"
-			"enabled"		"1"
+			"wide"			"170"
+			"tall"			"30"
 
-			"autoResize"	"0"
-			"pinCorner"		"0"
+			"labeltext"		"%description%"
 			"fgcolor_override"	"ProgressOffWhite"
-			"auto_wide_tocontents" "0"
-			"wrap"				   "1"
-			"centerwrap"		   "1"
-
 			"font"			"HudFontSmallest"
-			"labelText"		"%description%"
-			"textAlignment"	"north"
+			"textAlignment"	"center"
+
+			"proportionaltoparent"	"1"
 		}
-		
+
 		"ImageFrame"
 		{
 			"ControlName"	"EditablePanel"
-			"fieldName"		"ImageFrame"
+			"Fieldname"		"ImageFrame"
 
-			"xpos"			"10"
-			"xpos"			"0"
-			"ypos"			"0"
+			"xpos"		"3"
+			"ypos"		"23"
+			"zpos"		"2"
 
-			"wide"			"205"
-			"tall"			"205"
-
-			"visible"		"1"
-			"enabled"		"1"
+			"wide"		"165"
+			"tall"		"217"
 		}
-		
-		// Parented to ImageFrame in code.
-		"Image"
+		"Image" // Parented to ImageFrame in code.
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"Image"
 
-			"xpos"			"0"
-			"ypos"			"32"
+			"xpos"			"cs-0.5"
+			"ypos"			"cs-0.5"
 
-			"wide"			"185"
-			"tall"			"185"
+			"wide"			"165"
+			"tall"			"217"
 
 			"visible"		"1"
 			"enabled"		"1"
 
+			"proportionaltoparent"	"1"
+
 			"tileImage"		"0"
 			"scaleImage"	"1"
 			"image"			""
-		}	
+		}
 	}
 
 	"StartButton"
 	{
 		"ControlName"		"CExButton"
-		"fieldName"			"StartButton"
+		"Fieldname"			"StartButton"
 
-		"xpos"				"0"
-		"ypos"				"0"
-		"zpos"				"100"
+		"xpos"				"1"
+		"ypos"				"1"
+		"zpos"				"1005"
 
-		"wide"				"200"
-		"tall"				"205"
+		"tall"				"240"
+		"wide"				"168"
 
-		"visible"			"1"
-		"enabled"			"1"
+		"default"			"0"
 
-		"autoResize"		"0"
-		"pinCorner"			"0"
-
-		"tabPosition"		"0"
-		"labelText"			" "
-		"font"				"HudFontSmallBold"
-		"textAlignment"		"center"
-		"textinsetx"		"0"
-		"dulltext"			"0"
-		"brighttext"		"0"
-
-		"Command"			"%startcommand%"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		"command"			"%startcommand%"
 
 		"defaultBgColor_override"	"Blank"
-		"armedBgColor_override"		"Blank"
+		"defaultFgColor_override"	"Blank"
+		"depressedBgColor_override"	"Blank"
+		"depressedFgColor_override"	"Blank"
 
-		"border_default"	"TFFatLineBorder"
-		"border_armed"		"TFFatLineBorderRedBG"
+		"armedBgColor_override"		"0 0 0 128"
+		"armedFgColor_override"		"Blank"
 	}
 }
