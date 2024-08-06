@@ -69,23 +69,42 @@ event HudLowAmmoPulseStop {
 
 event HudSpyDisguiseFadeIn {
 	RunEvent HudSpyDisguiseChanged	0
-	Animate PlayerStatusSpyImage			Alpha		"255"			Linear 0.9 0.1
-	Animate HudSpellMenu					ypos		r87				Accel 0 0
-	Animate HudItemEffectMeterPowerUp		ypos		r88				Accel 0 0
+	Animate PlayerStatusSpyImage			Alpha		"255"				Linear 0.9 0.1
+	Animate HudSpellMenu					ypos		"r85"				Accel 0 0
+	Animate HudItemEffectMeterPowerUp		ypos		"r88"				Accel 0 0
 }
 
 event HudSpyDisguiseFadeOut {
 	RunEvent HudSpyDisguiseChanged	0
-	Animate PlayerStatusSpyImage			Alpha		"0"				Linear 0.9 0.1
-	Animate HudSpellMenu					ypos		r50				Accel 0 0
-	Animate HudItemEffectMeterPowerUp		ypos		r50				Accel 0 0
+	Animate PlayerStatusSpyImage			Alpha		"0"					Linear 0.9 0.1
+	Animate HudSpellMenu					ypos		"r48"				Accel 0 0
+	Animate HudItemEffectMeterPowerUp		ypos		"r48"				Accel 0 0
 }
 
 //===========================================
 
 //Stop moving my damned chatbox
-event CompetitiveGame_LowerChatWindow {}
-event CompetitiveGame_RestoreChatWindow {}
 event HudTournament_MoveChatWindow {}
+event CompetitiveGame_LowerChatWindow {}
+event CompetitiveGame_RestoreChatWindow {
+	//This thing runs every time you die, so use it to fix sticky animation issues
+    RunEvent HudLowAmmoPulseStop 0.1
+}
+
+//===========================================
+
+event CasualCategory_Selected
+{
+	Animate Shade 		BgColor		"0 0 0 0"	Deaccel 0 0.2
+	// Animate BGImage		Greyscale	0		Linear	0 0
+	Animate Title		FgColor 	"TanLight" 	Deaccel 0 0.2
+}
+
+event CasualCategory_NotSelected
+{
+	Animate Shade 		BgColor		"0 0 0 200"		Deaccel 0 0.2
+	// Animate BGImage		Greyscale	1			Linear	0 0
+	Animate Title		FgColor		"TanDark"		Deaccel 0 0.2
+}
 
 //===========================================

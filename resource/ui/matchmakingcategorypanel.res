@@ -20,16 +20,18 @@
 	{
 		"Controlname"	"EditablePanel"
 		"fieldName"		"TopContainer"
+
 		"xpos"			"0"
-		// "ypos"			"0"
 		"ypos"			"-1"
 		"zpos"			"2"
+
 		"wide"			"f0"
 		"tall"			"p1.17"
+
 		"visible"		"1"
 		"enabled"		"1"
+
 		"proportionaltoparent"	"1"
-		
 
 		"BorderContainer"
 		{
@@ -37,19 +39,13 @@
 			"fieldName"		"BorderContainer"
 
 			"xpos"			"-1"
-			// "ypos"			"0"
 			"ypos"			"s-0.001"
-			// "zpos"			"999"
 			"zpos"			"-2"
 
-			// "wide"			"f464"
 			"wide"			"f469"
-			// "tall"			"f0"
 			"tall"			"p1.20"
 
 			"border"		"TFFatLineBorderClearBG"
-			// "border"		"TFFatLineBorderOpaque"
-			// "border"		"TFFatLineBorderMapList"
 
 			"mouseinputenabled"	"0"
 		}
@@ -60,19 +56,12 @@
 			"fieldName"		"BorderContainerBG"
 
 			"xpos"			"-1"
-			// "ypos"			"0"
 			"ypos"			"s-0.001"
-			// "zpos"			"999"
 			"zpos"			"-3"
 
-			// "wide"			"f464"
 			"wide"			"f469"
-			// "tall"			"f0"
 			"tall"			"p1.20"
 
-			// "border"		"TFFatLineBorderClearBG"
-			// "border"		"TFFatLineBorderOpaque"
-			// "border"		"TFFatLineBorderMapList"
 			"bgcolor_override"	"52 48 45 255"
 
 			"mouseinputenabled"	"0"
@@ -83,12 +72,10 @@
 			"ControlName"	"EditablePanel"
 			"fieldName"		"BGColor"
 
-			// "xpos"			"3"
 			"xpos"			"cs-0.5"
 			"ypos"			"3"
 			"zpos"			"-1"
 
-			// "wide"			"f0"
 			"wide"			"f4"
 			"tall"			"f0"
 
@@ -96,7 +83,7 @@
 			"enabled"		"1"
 
 			"mouseinputenabled"	"0"
-		
+
 			"proportionaltoparent"	"1"
 			"bgcolor_override"	"0 0 0 255"
 		}
@@ -116,8 +103,37 @@
 			"visible"		"1"
 			"enabled"		"1"
 
-			"scaleImage"	"1"	
+			"scaleimage"	"1"
+
 			"proportionaltoparent"	"1"
+
+			// "drawcolor"		"255 255 255 255"
+			"greyscale"		"1"
+			"grayscale"		"1"
+			"contrast"		"0"
+			"monochrome"	"1"
+			"blackandwhite"	"1"
+			"blackwhite"	"1"
+		}
+
+		"Shade" //Shades unselected items
+		{
+			"fieldName"			"Shade"
+			"ControlName"		"Panel"
+
+			"xpos"				"cs-0.5"
+			"ypos"				"2"
+			"zpos"				"1"
+
+			"wide"				"f3"
+			"tall"				"56"
+
+			"mouseinputenabled"	"0"
+			"RoundedCorners"	"3"
+			"PaintBackgroundType"	"2"
+
+			"proportionaltoparent"	"1"
+			"bgcolor_override"	"0 0 0 0"
 		}
 
 		"EntryToggleButton"
@@ -125,22 +141,18 @@
 			"ControlName"	"CExImageButton"
 			"fieldName"		"EntryToggleButton"
 
-			// "xpos"			"0"
 			"xpos"			"cs-0.5"
 			"ypos"			"rs1"
 			"zpos"			"100"
 
-			// "wide"			"f0"
-			"wide"			"f4"
+			"wide"			"f3.5"
 			"tall"			"9"
 
 			"proportionaltoparent"	"1"
 
 			"actionsignallevel"	"2"
 			"command"		"toggle_collapse"
-			// "labeltext"		"#TF_Casual_ViewMaps"
 			"labeltext"		""
-			// "textAlignment"	"west"
 			"textAlignment"	"center"
 			"font"	"MMenuPlayListDesc"
 			"textinsetx"	"40"
@@ -153,14 +165,11 @@
 			"selectedFgColor_override"	"Black"
 
 			"border_default"	"NoBorder"
-			// "defaultBgColor_override"	"235 226 202 20"
-			"defaultBgColor_override"	"MichiPinkDark"
+			"defaultBgColor_override"	"StoreGreen"
 
 			"border_armed"		"NoBorder"
-			"armedBgColor_override"	"MichiPink"
-			"selectedBGColor_override" "MichiPink"
-			// "armedBgColor_override"	"LightOrange"
-			// "selectedBGColor_override" "Orange"
+			"armedBgColor_override"	"CreditsGreen"
+			"selectedBGColor_override" "StoreGreen"
 
 			"sound_armed"		"ui/item_info_mouseover.wav"
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -209,7 +218,7 @@
 			"labeltext"		""
 			"smallcheckimage"	"1"
 
-			"sound_depressed"	"UI/buttonclickrelease.wav"	
+			"sound_depressed"	"UI/buttonclickrelease.wav"
 			"button_activation_type"	"1"
 		}
 
@@ -241,7 +250,7 @@
 			"mouseinputenabled"	"0"
 
 			"fgcolor"		"TanLight"
-		}	
+		}
 
 		"TitleShadow"
 		{
@@ -320,7 +329,6 @@
 		"controlname"	"panel"
 		"fieldName"		"MapsContainerAnchor"
 
-		// "xpos"			"-29"
 		"xpos"			"-28"
 		"ypos"			"-12"
 	}
@@ -332,8 +340,6 @@
 
 		"xpos"			"0"
 		"ypos"			"0"
-		// "ypos"			"15"
-		// "zpos"			"0"
 		"zpos"			"-3"
 
 		"pin_to_sibling"	"MapsContainerAnchor"

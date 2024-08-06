@@ -428,7 +428,6 @@
 					"fgcolor_override"	"TanLight"
 
 					"textAlignment"	"west"
-					// "textAlignment"	"south-east"
 					"labelText"		"%next_level_xp%"
 					"proportionaltoparent"	"1"
 				}
@@ -450,18 +449,16 @@
 						"ControlName"	"ContinuousProgressBar"
 						"fieldName"		"ContinuousProgressBar"
 
-						// "xpos"			"cs-0.5"
 						"xpos"			"0"
 						"ypos"			"cs-0.5"
 
-						// "wide"			"f2"
 						"wide"			"p1"
 						"tall"			"f2"
 
 						"proportionaltoparent"	"1"
 						"progress"		"0"
 
-						"fgcolor_override"	"MichiPink"
+						"fgcolor_override"	"MichiOrange"
 					}
 				}
 			}

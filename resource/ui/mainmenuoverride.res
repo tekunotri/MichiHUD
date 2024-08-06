@@ -547,7 +547,6 @@
 		"tall"			"22"
 		"wide"			"o3.5"
 
-		// "command"		"url https://www.youtube.com/watch?v=dQw4w9WgXcQ"
 		"command"		"engine incrementvar cl_mainmenu_safemode 0 1 1"
 		"labeltext"		"Quickplay"
 
@@ -3396,11 +3395,11 @@
 
 	"DashboardDimmer"        // allows for clicking off playlist frames
     {
-        "wide"                "f0"
-        "tall"                "f0"
-        "paintbackground"    "0"
-        "paintborder"        "0"
-        "roundedcorners"    "0"
+        "wide"				"f0"
+        "tall"				"f0"
+        "paintbackground"	"0"
+        "paintborder"		"0"
+        "roundedcorners"	"0"
     }
 
 	"ChatPinPos"
@@ -3408,13 +3407,8 @@
 		"ControlName"	"Panel"
 		"FieldName"		"ChatPinPos"
 
-		"xpos"			"cs-0.485"
+		"xpos"			"cs-0.5-5"
 		"ypos"			"r-20"
-
-		"if_wider"
-		{
-			"xpos"			"cs-0.465"
-		}
 
 		"tall"			"6"
 		"wide"			"o29.3"
@@ -3425,18 +3419,20 @@
 	"partychat"
 	{
 		"pin_to_sibling"		"ChatPinPos"
-		"pin_to_sibling_corner"	"0"
+		"pin_to_sibling_corner"	"PIN_CENTER_TOP"
+		"pin_corner_to_sibling"	"PIN_CENTER_TOP"
 
-		"wide"			"143"
-		"expanded_height"			"147"
+		"wide"				"143"
+
+		"expanded_height"	"147"
 		"resize_time"		"0"
+		"proportionalToParent"	"1"
 
 		"LogPinPos"
 		{
 			"ControlName"	"Panel"
 			"FieldName"		"LogPinPos"
 
-			// "xpos"			"cs-0.465"
 			"xpos"			"0"
 			"ypos"			"0"
 
@@ -3453,7 +3449,6 @@
 			"pin_corner_to_sibling"	"PIN_CENTER_TOP"
 
 			"wide"			"143"
-			// "tall"			"20"
 
 			"resize_time"		"0"
 			"PinnedCornerOffSetY"	"-3"
@@ -3468,6 +3463,7 @@
 			"wide"			"143"
 
 			"PinnedCornerOffSetY"	"p0"
+			"resize_time"		"0"
 		}
 	}
 
@@ -4059,7 +4055,6 @@
 			"visible"		"1"
 			"enabled"		"1"
 
-			// "fgcolor"		"MichiPink"
 			"fgcolor"		"200 80 60 255"
 			"wrap"			"1"
 		}

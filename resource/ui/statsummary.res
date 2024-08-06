@@ -31,7 +31,7 @@
 
 		"image"			""
 		"scaleImage"	"1"
-	}	
+	}
 
 	"MapInfo"
 	{
@@ -43,9 +43,8 @@
 		"tall"			"480"
 		"visible"		"0"
 		"enabled"		"1"
-		
-		// "bgcolor_override"	"MichiPinkDark"
-		"bgcolor_override"	"196 180 198 255"
+
+		"bgcolor_override"	"MichiOrange"
 
 		"RealBackground"
 		{
@@ -83,9 +82,9 @@
 			"enabled"		"1"
 
 			"image"			""
-			"scaleImage"	"1"		
+			"scaleImage"	"1"
 		}
-	
+
 		"ContributedLabel"
 		{
 			"ControlName"	"EditablePanel"
@@ -100,7 +99,7 @@
 
 			"visible"		"0"
 			"enabled"		"1"
-	
+
 			"BG"
 			{
 				"ControlName"	"EditablePanel"
@@ -120,7 +119,7 @@
 
 				"border"		"TFThinLineBorder"
 			}
-	
+
 			"ActualLabel"
 			{
 				"ControlName"	"CExLabel"
@@ -145,7 +144,7 @@
 
 				"centerwrap"	"1"
 				"wrap"			"1"
-			}					
+			}
 			"ActualLabelShadow"
 			{
 				"ControlName"	"CExLabel"
@@ -171,11 +170,11 @@
 				"centerwrap"	"1"
 				"wrap"			"1"
 
-				
+
 				"fgcolor_override"	"Black"
-			}					
+			}
 		}
-	
+
 		"InfoBG"
 		{
 			"ControlName"	"EditablePanel"
@@ -292,7 +291,7 @@
 			"enabled"		"1"
 
 			"wrap"			"0"
-			
+
 			"fgcolor_override" "Black"
 		}
 
@@ -321,59 +320,6 @@
 			"fgcolor_override" "137 191 60 255"
 		}
 	}
-
-// 	"OnYourWayLabel"
-// 	{
-// 		"ControlName"	"CExLabel"
-// 		"fieldName"		"OnYourWayLabel"
-
-// 		"font"			"HudFontSmallBold"
-// 		"labelText"		"#LoadingMap"
-// 		"textAlignment"	"center"
-
-// 		// "xpos"			"c+10"
-// 		"xpos"			"cs-0.5"
-// 		"ypos"			"30"
-// 		"zpos"			"40"
-
-// 		"wide"			"285"
-// 		"tall"			"35"
-
-// 		"autoResize"	"0"
-// 		"pinCorner"		"0"
-
-// 		"visible"		"1"
-// 		"enabled"		"1"
-
-// 		// "fgcolor_override" "173 168 148 255"
-// 		"fgcolor_override" "MichiPink"
-// 	}
-// 	"OnYourWayLabelShadow"
-// 	{
-// 		"ControlName"	"CExLabel"
-// 		"fieldName"		"OnYourWayLabelShadow"
-
-// 		"font"			"HudFontSmallBold"
-// 		"labelText"		"#LoadingMap"
-// 		"textAlignment"	"center"
-
-// 		// "xpos"			"c+10"
-// 		"xpos"			"cs-0.498"
-// 		"ypos"			"31"
-// 		"zpos"			"40"
-
-// 		"wide"			"285"
-// 		"tall"			"35"
-
-// 		"autoResize"	"0"
-// 		"pinCorner"		"0"
-
-// 		"visible"		"1"
-// 		"enabled"		"1"
-
-// 		"fgcolor_override" "Black"
-// 	}
-// }
 
 	"MapLabel"
 	{
@@ -418,7 +364,7 @@
 
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		"fgcolor_override" "Black"
 	}
 
@@ -465,7 +411,7 @@
 
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		"fgcolor_override"	"Black"
 	}
 
@@ -484,8 +430,8 @@
 		"visible"		"0"
 		"enabled"		"1"
 
-		"image"			""	
-		"scaleImage"	"1"	
+		"image"			""
+		"scaleImage"	"1"
 	}
 
 	"TipText"
@@ -663,7 +609,7 @@
 		}
 
 		"InteractiveHeaders"
-		{	
+		{
 			"xpos"		"r0"
 			"visible"	"0"
 		}

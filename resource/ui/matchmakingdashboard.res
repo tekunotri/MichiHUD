@@ -3,11 +3,10 @@
 	"MMDashboard"
 	{
 		"fieldName"				"MMDashboard"
-		
+
 		"xpos"					"cs-0.5"
 		"ypos"					"0"
 		"zpos"					"-3"
-		// "zpos"					"0"
 
 		"wide"					"f0"
 		"tall"					"480"
@@ -120,7 +119,7 @@
 			"visible"		"1"
 			"proportionaltoparent"	"1"
 
-			
+
 			"border"		"TFFatLineBorder"
 
 			"BGPanel"
@@ -157,7 +156,7 @@
 
 				"wide"			"o1"
 				"tall"			"f0"
-				
+
 				"visible"		"1"
 				"enabled"		"1"
 
@@ -213,10 +212,10 @@
 
 				"wide"			"f55"
 				"tall"			"f0"
-				
+
 				"visible"		"1"
 				"enabled"		"1"
-				
+
 				"font"			"HudFontSmallestBold"
 				"fgcolor_override"	"TanLight"
 				// "textAlignment"	"west"
@@ -371,7 +370,7 @@
 
 			"visible"		"1"
 			"proportionaltoparent"	"1"
-			
+
 			"BGPanel"
 			{
 				"ControlName"	"Panel"
@@ -662,7 +661,6 @@
 		"ControlName"	"CDashboardPartyMember"
 		"fieldName"		"PartySlot0"
 
-		// "xpos"			"40"
 		"xpos"			"cs-3"
 		"ypos"			"-1"
 		"zpos"			"1100"
@@ -688,7 +686,6 @@
 		"ControlName"	"CDashboardPartyMember"
 		"fieldName"		"PartySlot1"
 
-		// "xpos"			"64"
 		"xpos"			"cs-2"
 		"ypos"			"-1"
 		"zpos"			"1100"
@@ -714,7 +711,6 @@
 		"ControlName"	"CDashboardPartyMember"
 		"fieldName"		"PartySlot2"
 
-		// "xpos"			"88"
 		"xpos"			"cs-1"
 		"ypos"			"-1"
 		"zpos"			"1100"
@@ -740,7 +736,6 @@
 		"ControlName"	"CDashboardPartyMember"
 		"fieldName"		"PartySlot3"
 
-		// "xpos"			"112"
 		"xpos"			"cs"
 		"ypos"			"-1"
 		"zpos"			"1100"
@@ -766,7 +761,6 @@
 		"ControlName"	"CDashboardPartyMember"
 		"fieldName"		"PartySlot4"
 
-		// "xpos"			"136"
 		"xpos"			"cs1"
 		"ypos"			"-1"
 		"zpos"			"1100"
@@ -792,7 +786,6 @@
 		"ControlName"	"CDashboardPartyMember"
 		"fieldName"		"PartySlot5"
 
-		// "xpos"			"160"
 		"xpos"			"cs2"
 		"ypos"			"-1"
 		"zpos"			"1100"
@@ -819,9 +812,9 @@
 	{
 		"ControlName"	"Panel"
 		"Fieldname"		"PartyBacker0"
-		
+
 		"zpos"			"101"
-		
+
 		"wide"			"o0.8"
 		"tall"			"24"
 
@@ -842,7 +835,7 @@
 		"Fieldname"		"PartyBacker1"
 
 		"zpos"			"101"
-		
+
 		"wide"			"o0.8"
 		"tall"			"24"
 
@@ -861,9 +854,9 @@
 	{
 		"ControlName"	"Panel"
 		"Fieldname"		"PartyBacker2"
-		
+
 		"zpos"			"101"
-		
+
 		"wide"			"o0.8"
 		"tall"			"24"
 
@@ -882,9 +875,9 @@
 	{
 		"ControlName"	"Panel"
 		"Fieldname"		"PartyBacker3"
-		
+
 		"zpos"			"101"
-		
+
 		"wide"			"o0.8"
 		"tall"			"24"
 
@@ -903,9 +896,9 @@
 	{
 		"ControlName"	"Panel"
 		"Fieldname"		"PartyBacker4"
-		
+
 		"zpos"			"101"
-		
+
 		"wide"			"o0.8"
 		"tall"			"24"
 
@@ -924,9 +917,9 @@
 	{
 		"ControlName"	"Panel"
 		"Fieldname"		"PartyBacker5"
-		
+
 		"zpos"			"101"
-		
+
 		"wide"			"o0.8"
 		"tall"			"24"
 

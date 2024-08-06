@@ -21,13 +21,8 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemEffectMeterLabel2"
 
-		"PinnedCornerOffSetX"	"12"
-		"PinnedCornerOffSetY"	"-17"
-
 		"pin_to_sibling"	"ItemEffectMeter"
 
-		// "xpos"			"1+4+3"
-		// "ypos"			"1+4+3+1"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"3"
@@ -35,20 +30,14 @@
 		"wide"			"48"
 		"tall"			"7"
 
-		"autoResize"	"1"
-		"pinCorner"		"2"
-
 		"visible"		"1"
 		"enabled"		"1"
 
-		"tabPosition"	"0"
+		"allcaps"		"1"
 
-		"labelText"		"#TF_RocketPack_Charges"
-		"textAlignment"	"center"
-		
-		"dulltext"		"0"
-		"brighttext"	"0"
+		"labelText"		"#TF_Wearable_Jetpack"
 		"font"			"ScoreboardVerySmall"
+		"textAlignment"	"center"
 		"fgcolor"		"black"
 	}
 
@@ -60,7 +49,7 @@
 	}
 
 	"ItemEffectMeter2"
-	{	
+	{
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ItemEffectMeter2"
 		"font"			"Default"

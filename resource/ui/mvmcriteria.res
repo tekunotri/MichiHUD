@@ -5,14 +5,12 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MvMTourOfDutyGroupBox"
 
-		"xpos"		"10"
-		// "ypos"		"38"
+		"xpos"		"cs-0.012"
 		"ypos"		"128"
 		"zpos"		"-1"
 
 		"wide"		"380"
 		"tall"		"100"
-		// "tall"		"225"
 
 		"NavToRelay"	"TourlistGroupBox"
 		"NavUp"			"MvMSelectChallengeGroupBox"
@@ -21,6 +19,8 @@
 
 		"paintborder"	"1"
 		"border"		"TFFatLineBorder"
+
+		"proportionaltoparent"	"1"
 
 		"ChallengeLabel"
 		{
@@ -31,7 +31,6 @@
 			"labelText"		"#TF_MvM_TourOfDuty"
 			"textAlignment"	"south-west"
 
-			// "xpos"			"0"
 			"xpos"			"10"
 			"ypos"			"0"
 			"zpos"			"0"
@@ -50,7 +49,6 @@
 			"labelText"		"#TF_MvM_Difficulty"
 			"textAlignment"	"south-west"
 
-			// "xpos"			"189"
 			"xpos"			"198"
 			"ypos"			"0"
 			"zpos"			"0"
@@ -84,7 +82,6 @@
 			"fieldName"		"TourLevelLabel"
 			"font"			"HudFontSmall"
 
-			// "labelText"		"#TF_MvM_TourNumber"
 			"labelText"		"#TF_MvM_Tours"
 			"textAlignment"	"south-west"
 
@@ -104,17 +101,11 @@
 			"fieldName"		"TourlistGroupBox"
 
 			"xpos"			"5"
-			// "ypos"			"28"
 			"ypos"			"25"
 			"zpos"			"-1"
 
 			"wide"			"370"
 			"tall"			"70"
-
-			// "PaintBackgroundType"	"2"
-			// "paintbackground"		"1"
-			// "bgcolor_override"	"0 0 0 200"
-			// "border"		"QuickplayBorder"
 
 			"NavToRelay"	"TourList"
 
@@ -123,12 +114,8 @@
 				"ControlName"	"EditablePanel"
 				"fieldName"		"GreyOutPanel"
 
-				// "xpos"			"r0"
-				// "ypos"			"r0"
 				"zpos"			"200"
 
-				// "wide"			"370"
-				// "tall"			"70"
 				"wide"			"400"
 				"tall"			"300"
 
@@ -164,20 +151,17 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MannUpTourLootDescriptionBox"
 
-		"xpos"		"8"
-		// "ypos"		"240"
-		// "ypos"		"147"
+		"xpos"		"cs-0.012"
 		"ypos"		"237"
 		"zpos"		"-1"
 
 		"wide"		"380"
 		"tall"		"120"
 
-		// "PaintBackgroundType"	"2"
-		// "paintbackground"		"1"
-		// "bgcolor_override"	"0 0 0 200"
 		"paintborder"	"1"
 		"border"		"TFFatLineBorder"
+
+		"proportionaltoparent"	"1"
 
 		"TourLootImage"
 		{
@@ -244,7 +228,6 @@
 
 		"wide"			"400"
 		"tall"			"118"
-		// "tall"			"140"
 
 		"NavToRelay"	"OpenHelpButton"
 		"NavUp"			"MvMTourOfDutyGroupBox"
@@ -283,9 +266,8 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldname"		"MannUpTicketImage"
-			
+
 			"xpos"	"7"
-			// "ypos"	"0"
 			"ypos"	"55"
 			"zpos"	"1"
 
@@ -308,7 +290,6 @@
 			"fgcolor_override"	"201 79 57 255"
 
 			"xpos"			"-1"
-			// "ypos"			"12"
 			"ypos"			"67"
 			"zpos"			"2"
 
@@ -324,7 +305,6 @@
 			"fieldname"		"SquadSurplusImage"
 
 			"xpos"	"45"
-			// "ypos"	"0"
 			"ypos"	"55"
 			"zpos"	"1"
 
@@ -346,7 +326,6 @@
 			"fgcolor_override"	"201 79 57 255"
 
 			"xpos"			"31"
-			// "ypos"			"12"
 			"ypos"			"67"
 			"zpos"			"2"
 
@@ -372,7 +351,6 @@
 			"labelText"		""
 		}
 
-		// "ActivateSquadSurplusLabel"
 		"SquadSurplusCheckLabel"
 		{
 			"ControlName"	"Label"
@@ -395,8 +373,6 @@
 			"ControlName"	"CMvMPlayerTicketStatusPanel"
 			"fieldName"		"Slot0"
 
-			// "xpos"			"200"
-			// "xpos"			"cs-3"
 			"xpos"			"128"
 			"ypos"			"0"
 			"zpos"			"0"
@@ -412,7 +388,6 @@
 			"ControlName"	"CMvMPlayerTicketStatusPanel"
 			"fieldName"		"Slot1"
 
-			// "xpos"			"200+30"
 			"xpos"			"128+30"
 			"ypos"			"5"
 			"zpos"			"0"
@@ -428,7 +403,6 @@
 			"ControlName"	"CMvMPlayerTicketStatusPanel"
 			"fieldName"		"Slot2"
 
-			// "xpos"			"200+30+30"
 			"xpos"			"128+30+30"
 			"ypos"			"5"
 			"zpos"			"0"
@@ -444,7 +418,6 @@
 			"ControlName"	"CMvMPlayerTicketStatusPanel"
 			"fieldName"		"Slot3"
 
-			// "xpos"			"200+30+30+30"
 			"xpos"			"128+30+30+30"
 			"ypos"			"5"
 			"zpos"			"0"
@@ -460,7 +433,6 @@
 			"ControlName"	"CMvMPlayerTicketStatusPanel"
 			"fieldName"		"Slot4"
 
-			// "xpos"			"200+30+30+30+30"
 			"xpos"			"128+30+30+30+30"
 			"ypos"			"5"
 			"zpos"			"0"
@@ -476,7 +448,6 @@
 			"ControlName"	"CMvMPlayerTicketStatusPanel"
 			"fieldName"		"Slot5"
 
-			// "xpos"			"200+30+30+30+30+30"
 			"xpos"			"128+30+30+30+30+30"
 			"ypos"			"5"
 			"zpos"			"0"
@@ -553,7 +524,7 @@
 		"zpos"		"-1"
 
 		"wide"		"400"
-		"tall"		"265"
+		"tall"		"270"
 
 		"NavToRelay"	"ChallengeListGroupBox"
 		"NavRight"		"MvMTourOfDutyGroupBox"
@@ -565,7 +536,6 @@
 
 			"font"			"HudFontSmallBold"
 			"labelText"		"%tour_name%"
-			// "textAlignment"	"south-west"
 			"textAlignment"	"west"
 
 			"xpos"			"10"
@@ -578,44 +548,6 @@
 
 			"mouseinputenabled"	"0"
 		}
-
-		// "CompleteLabel"
-		// {
-		// 	"ControlName"	"Label"
-		// 	"fieldName"		"CompleteLabel"
-
-		// 	"font"			"HudFontSmallBold"
-		// 	"labelText"		"#TR_ProgressDone"
-		// 	"textAlignment"	"east"
-
-		// 	"xpos"			"255"
-		// 	"ypos"			"8"
-		// 	"zpos"			"0"
-
-		// 	"wide"			"100"
-		// 	"tall"			"26"
-
-		// 	"fgcolor_override"	"250 114 45 255"
-		// }
-
-		// "TourTimesLabel"
-		// {
-		// 	"ControlName"	"Label"
-		// 	"fieldName"		"TourTimesLabel"
-
-		// 	"font"			"HudFontSmallestBold"
-		// 	"labelText"		": x"
-		// 	"textAlignment"	"center"
-
-		// 	"xpos"			"348"
-		// 	"ypos"			"8"
-		// 	"zpos"			"0"
-
-		// 	"wide"			"30"
-		// 	"tall"			"26"
-
-		// 	"fgcolor_override"	"250 114 45 255"
-		// }
 
 		"TourLevelLabel"
 		{
@@ -646,12 +578,7 @@
 			"zpos"			"-1"
 
 			"wide"			"400"
-			"tall"			"237"
-
-			// "PaintBackgroundType"	"2"
-			// "paintbackground"		"1"
-			// "bgcolor_override"	"0 0 0 200"
-			// "border"		"QuickplayBorder"
+			"tall"			"280"
 
 			"NavToRelay"	"ChallengeList"
 
@@ -659,11 +586,14 @@
 			{
 				"ControlName"	"EditablePanel"
 				"fieldName"		"GreyOutPanel"
+
 				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"200"
+
 				"wide"			"400"
 				"tall"			"225"
+
 				"visible"		"0"
 				"bgcolor_override"	"128 128 128 128"
 			}
@@ -672,12 +602,15 @@
 			{
 				"ControlName"	"SectionedListPanel"
 				"fieldName"		"ChallengeList"
-				"font"			"HudFontSmall"
+
 				"xpos"			"70"
 				"ypos"			"5"
 				"zpos"			"0"
+
 				"wide"			"330"
-				"tall"			"232"
+				"tall"			"280"
+
+				"font"			"HudFontSmall"
 				"linespacing"	"12"
 			}
 		}

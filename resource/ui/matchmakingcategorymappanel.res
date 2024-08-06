@@ -27,7 +27,7 @@
 		"font"			"HudFontSmallest"
 		"smallcheckimage"	"1"
 
-		"sound_depressed"	"UI/buttonclickrelease.wav"	
+		"sound_depressed"	"UI/buttonclickrelease.wav"
 		"button_activation_type"	"1"
 	}
 
@@ -46,7 +46,7 @@
 		"font"			"HudFontSmallest"
 		"textinsetx"	"20"
 		"use_proportional_insets"	"1"
-		
+
 		"mouseinputenabled"	"0"
 	}
 

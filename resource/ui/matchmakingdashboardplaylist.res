@@ -39,24 +39,8 @@
 
 		"wide"			"400"
 		"tall"			"300"
-		
+
 		"visible"		"1"
 		"proportionaltoparent"	"1"
-	}
-
-	"PlayListDropShadow"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"PlayListDropShadow"
-		"xpos"			"8"
-		"ypos"			"50"
-		"zpos"			"1000"
-		"wide"			"255"
-		"tall"			"298"
-		"visible"		"0"
-		"PaintBackgroundType"	"2"
-		"border"		"InnerShadowBorder"
-		"proportionaltoparent"	"1"
-		"mouseinputenabled"	"0"
 	}
 }

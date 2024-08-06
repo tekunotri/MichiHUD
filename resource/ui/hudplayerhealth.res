@@ -1,6 +1,5 @@
 "Resource/UI/HudPlayerHealth.res"
 {
-	// player health data
 	"HudPlayerHealth"
 	{
 		"ControlName"	"EditablePanel"
@@ -64,7 +63,7 @@
 
 		"xpos"			"28"
 		"ypos"			"73"
-		"zpos"			"3"
+		"zpos"			"2"
 
 		"wide"			"32"
 		"tall"			"32"
@@ -84,7 +83,7 @@
 		"xpos"			"22"
 
 		"ypos"			"70"
-		
+
 		"wide"			"94"
 		"tall"			"38"
 
@@ -141,28 +140,7 @@
 		"fgcolor"		"black"
 	}
 
-	"PlayerStatusMaxHealthValue"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusMaxHealthValue"
-
-		"xpos"			"76"
-		"ypos"			"20"
-		"zpos"			"6"
-
-		"wide"			"50"
-		"tall"			"18"
-
-		"visible"		"0"
-		"enabled"		"0"
-
-		"labelText"		"%MaxHealth%"
-		"textAlignment"	"center"
-		"font"			"DefaultSmall"
-		"fgcolor"		"TanDark"
-	}
-
-	//////////////////// 
+	////////////////////
 	// Status effects //
 	////////////////////
 
@@ -219,7 +197,7 @@
 
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		"scaleImage"	"1"
 		"image"			"../vgui/slowed"
 		"fgcolor"		"TanDark"
@@ -280,7 +258,7 @@
 
 		"wide"			"31"
 		"tall"			"31"
-		
+
 		"visible"		"1"
 		"enabled"		"1"
 
