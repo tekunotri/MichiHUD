@@ -1,8 +1,12 @@
+//This file seems #base'd to hudobjectivetimepanel.res in code
+//Or rather, it inherits hudobjectivetimepanel.res and duplicates the timer to make a red one
+//Do not add #base or you get two blue timers and a red one
+
 "Resource/UI/HudObjectiveKothTimePanel.res"
-{	
+{
 	"HudKothTimeStatus"
 	{
-		if_match
+		"if_match"
 		{
 			"zpos"		"5"
 		}
@@ -14,9 +18,7 @@
 		"fieldName"			"BlueTimer"
 
 		"xpos"				"0"
-		"xpos_minmode"		"20"
 		"ypos"				"0"
-		"ypos_minmode"		"-14"
 		"zpos"				"2"
 
 		"wide"				"100"
@@ -34,14 +36,12 @@
 		"delta_lifetime"		"1.5"
 		"delta_item_font"		"HudFontMedium"
 
-		if_match
+		"if_match"
 		{
 			"proportionaltoparent"	"1"
 
 			"xpos"					"cs-0.5"
-			"xpos_minmode"			"cs-0.5"
 			"ypos"					"0"
-			"ypos_minmode"			"0"
 
 			"delta_item_x"			"10"
 			"delta_item_start_y"	"12"
@@ -53,78 +53,40 @@
 			"delta_item_font"		"HudFontMediumSmall"
 		}
 
-		// "BlueTimerBG"
-		// {
-		// 	"controlName"	"CTFImagePanel"
-		// 	"fieldname"		"BlueTimerBG"
-
-		// 	"xpos"			"19"
-		// 	"ypos"			"5+4+3"
-
-		// 	"wide"			"72"
-		// 	"tall"			"28"
-
-		// 	"visible"		"1"
-		// 	"enabled"		"1"
-
-		// 	if_match
-		// 	{
-		// 		"visible"		"0"
-		// 	}
-
-		// 	"image"			"../hud/color_panel_blu"
-		// 	"src_corner_height"		"23"
-		// 	"src_corner_width"		"23"
-		// 	"draw_corner_width"		"5"
-		// 	"draw_corner_height" 	"5"
-		// }
-		
 		"TimePanelValue"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"TimePanelValue"
 
-			"font"			"HudFontMediumSmall"
-			"font_minmode"	"HudFontSmall"
-			"font_lodef"	"HudFontMedium"
-
-			"fgcolor"		"TanLight"
 			"xpos"			"23"
-			"xpos_minmode"	"39"
-			"xpos_hidef"	"114"
-			"xpos_lodef"	"114"
 			"ypos"			"11"
-			"ypos_minmode"	"6"
-			"ypos_hidef"	"15"
-			"ypos_lodef"	"18"
 			"zpos"			"3"
 
 			"wide"			"45"
-			"wide_minmode"	"30"
-			"wide_lodef"	"50"
 			"tall"			"31"
 
 			"visible"		"1"
 			"enabled"		"1"
 
-			"textAlignment"		"center"
+			"textAlignment"	"center"
 			"labelText"		"0:00"
+			"font"			"HudFontMediumSmall"
+			"fgcolor"		"TanLight"
 
-			if_match
+			"if_match"
 			{
-				"proportionaltoparent"	"1"
 
 				"xpos"			"15"
 				"ypos"			"10"
+
 				"tall"			"10"
 				"wide"			"35"
 
+				"proportionaltoparent"	"1"
+
 				"font"			"HudFontSmall"
-				"font_minmode"	"HudFontSmall"
-				"font_lodef"	"HudFontSmall"
-			
 			}
-		}	
+		}
 	}
 
 	"RedTimer"
@@ -133,9 +95,7 @@
 		"fieldName"			"RedTimer"
 
 		"xpos"				"90"
-		"xpos_minmode"		"70"
 		"ypos"				"0"
-		"ypos_minmode"		"-14"
 		"zpos"				"2"
 
 		"wide"				"100"
@@ -153,14 +113,12 @@
 		"delta_lifetime"		"1.5"
 		"delta_item_font"		"HudFontMedium"
 
-		if_match
+		"if_match"
 		{
 			"proportionaltoparent"	"1"
 
 			"xpos"					"cs-0.5"
-			"xpos_minmode"			"cs-0.5"
 			"ypos"					"0"
-			"ypos_minmode"			"0"
 
 			"delta_item_x"			"50"
 			"delta_item_start_y"	"12"
@@ -172,92 +130,50 @@
 			"delta_item_font"		"HudFontMediumSmall"
 		}
 
-		"TimePanelBG"
+		"TimePanelBG" //This doesn't apply without a hud_reloadscheme. Thanks Valve.
 		{
 			"fieldname"		"TimePanelBG"
+
 			"image"			"../hud/objectives_timepanel_red_bg"
 			"scaleimage"	"1"
-
-			if_match {
-				"visible"	"0"
-			}
 		}
 
-		// "RedTimerBG"
-		// {
-		// 	"controlName"	"CTFImagePanel"
-		// 	"fieldname"		"RedTimerBG"
-
-		// 	"xpos"			"19"
-		// 	"ypos"			"5+4+3"
-
-		// 	"wide"			"72"
-		// 	"tall"			"28"
-
-		// 	"visible"		"1"
-		// 	"enabled"		"1"
-
-		// 	if_match
-		// 	{
-		// 		"visible"		"0"
-		// 	}
-
-		// 	"image"			"../hud/color_panel_red"
-		// 	"src_corner_height"		"23"
-		// 	"src_corner_width"		"23"
-		// 	"draw_corner_width"		"5"
-		// 	"draw_corner_height" 	"5"
-		// }
-		
 		"TimePanelValue"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"TimePanelValue"
 
-			"font"			"HudFontMediumSmall"
-			"font_minmode"	"HudFontSmall"
-			"font_lodef"	"HudFontMedium"
-
-			"fgcolor"		"TanLight"
 			"xpos"			"23"
-			"xpos_minmode"	"39"
-			"xpos_hidef"	"114"
-			"xpos_lodef"	"114"
 			"ypos"			"11"
-			"ypos_minmode"	"6"
-			"ypos_hidef"	"15"
-			"ypos_lodef"	"18"
 			"zpos"			"3"
 
 			"wide"			"45"
-			"wide_minmode"	"30"
-			"wide_lodef"	"50"
 			"tall"			"31"
 
 			"visible"		"1"
 			"enabled"		"1"
 
-			"textAlignment"		"center"
+			"textAlignment"	"center"
 			"labelText"		"0:00"
+			"font"			"HudFontMediumSmall"
+			"fgcolor"		"TanLight"
 
-			if_match
+			"if_match"
 			{
 				"proportionaltoparent"	"1"
 
 				"xpos"			"rs1-15"
-				"xpos_minmode"	"rs1-15"
 				"ypos"			"10"
+
 				"wide"			"35"
 				"tall"			"10"
 
 				"font"			"HudFontSmall"
-				"font_minmode"	"HudFontSmall"
-				"font_lodef"	"HudFontSmall"
-			
+
 			}
-		}	
+		}
 	}
-	
+
 	"ActiveTimerBG"
 	{
 		"ControlName"		"ImagePanel"
@@ -265,18 +181,15 @@
 
 		"xpos"				"0"
 		"ypos"				"9"
-		"ypos_minmode"		"-4"
 		"zpos"				"1"
 
 		"wide"				"78"
-		"wide_minmode"		"37"
 		"tall"				"33"
-		"tall_minmode"		"21"
 
 		"visible"			"0"
 		"enabled"			"1"
 
-		"image"				"../hud/objectives_timepanel_active_bg"	
-		"scaleImage"		"1"	
+		"image"				"../hud/objectives_timepanel_active_bg"
+		"scaleImage"		"1"
 	}
 }

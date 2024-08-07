@@ -33,7 +33,7 @@
 
 		"border"		"TFFatLineBorderOpaque"
 	}
-	
+
 	"TitleLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -72,7 +72,7 @@
 		"image"			"pve/mvm_timeout_active_large"
 		"scaleImage"	"1"
 	}
-	
+
 	"ExplanationLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -94,7 +94,7 @@
 		"textAlignment"	"center"
 		"fgcolor_override" "TanLight"
 	}
-		
+
 	"CancelButton"
 	{
 		"ControlName"	"CExButton"
@@ -118,7 +118,7 @@
 		"labelText"		"#Cancel"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-	}		
+	}
 
 	"CancelButtonHintIcon"
 	{
@@ -152,7 +152,7 @@
 
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		"Command"		"confirm"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -180,7 +180,7 @@
 		"actionSet"		"MenuControls"
 		"actionName"	"menu_select"
 	}
-	
+
 	"OptOutCheckbox"
 	{
 		"ControlName"	"CheckButton"

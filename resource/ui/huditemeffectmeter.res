@@ -60,19 +60,13 @@
 		"tall"					"7"
 
 		"visible"				"1"
-		"enabled"					"0"
+		"enabled"				"0"
 
-		"autoResize"			"1"
-		"pinCorner"				"2"
-
+		"labelText"				"#TF_Ball"
 		"disabledfgcolor2_override"	"Black"
 		"font"					"ScoreboardVerySmall"
-		"textAlignment_minmode"			"west"
-		"tabPosition"			"0"
-		"labelText"				"#TF_Ball"
 		"textAlignment"			"center"
-		"dulltext"				"0"
-		"brighttext"			"0"
+		"Allcaps"				"1"
 	}
 
 	"ItemEffectMeter"

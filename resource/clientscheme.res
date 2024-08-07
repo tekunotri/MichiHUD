@@ -19,9 +19,33 @@ Scheme
 	Colors
 	{
 		// Michi colors
-		"MichiPink"			"249 215 255 255"
-		"MichiPinkDark"		"196 180 198 255"
 		"MichiOrange"		"255 181 50 255"
+		"MichiTealish"		"50 255 181 255"
+		"MichiPurple"		"181 50 255 255"
+		"MichiRed"			"255 60 20 255"
+
+		//Nord theme
+
+		//Polar Night
+		"Nord0"				"46 52 64 255"
+		"Nord1"				"59 66 82 255"
+		"Nord2"				"67 76 94 255"
+		"Nord3"				"76 86 106 255"
+		//Snow Storm
+		"Nord4"				"216 222 233 255"
+		"Nord5"				"229 233 240 255"
+		"Nord6"				"236 239 244 255"
+		//Frost
+		"Nord7"				"143 188 187 255"
+		"Nord8"				"136 192 208 255"
+		"Nord9"				"129 161 193 255"
+		"Nord10"			"94 129 172 255"
+		//Aurora
+		"Nord11"			"191 97 106 255"
+		"Nord12"			"208 135 112 255"
+		"Nord13"			"235 203 139 255"
+		"Nord14"			"163 190 140 255"
+		"Nord15"			"180 142 173 255"
 
 		// base colors
 		"Orange"			"178 82 22 255"
@@ -3602,6 +3626,33 @@ Scheme
 			"draw_corner_height" 	"5"
 		}
 
+		///////////
+		//KV Tabs//
+		///////////
+
+		KVTabInactive
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+
+			"image"					"../vgui/logos/ui/kv_tab_inactive"
+			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"
+		}
+		KVTabActive
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+
+			"image"					"../vgui/logos/ui/kv_tab_active"
+			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"
+		}
+
 		//Folder/Contract border
 		CharFolderBorderActive
 		{
@@ -3683,14 +3734,22 @@ Scheme
 
 		GrayDialogBorder
 		{
+			// "bordertype"			"scalable_image"
+			// "backgroundtype"		"2"
+
+			// "image"					"loadout_rect"
+			// "src_corner_height"		"24"				// pixels inside the image
+			// "src_corner_width"		"24"
+			// "draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
+			// "draw_corner_height" 	"11"
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-
+			
 			"image"					"loadout_rect"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"11"
+			"draw_corner_height" 	"11"	
 		}
 
 		StoreFreeTrialBorder
@@ -3738,16 +3797,16 @@ Scheme
 			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"5"
 		}
-		LoadoutItemPopupBorder
+		LoadoutItemPopupBorder //Hard coded popup border for a lot of things
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-
+			
 			"image"					"button_holder_central"
 			"src_corner_height"		"32"				// pixels inside the image
 			"src_corner_width"		"32"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"4"
+			"draw_corner_height" 	"4"	
 		}
 
 		BackpackItemGrayedOut
@@ -3782,7 +3841,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			"color"					"Black"
-
+			
 			// "image"					"backpack_rect"
 			"image"					"backpack_rect_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -3795,7 +3854,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			"color"					"Black"
-
+			
 			// "image"					"backpack_rect_mouseover"
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -5181,6 +5240,7 @@ Scheme
 			"draw_corner_width"		"1"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"1"
 		}
+
 		MainMenuBGBorder
 		{
 			"bordertype"			"scalable_image"
@@ -5203,6 +5263,7 @@ Scheme
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"4"
 		}
+
 		MainMenuBlogTabBG
 		{
 			"bordertype"			"scalable_image"
@@ -5531,14 +5592,22 @@ Scheme
 		}
 		ReplayGrayDialogBorder
 		{
+			// "bordertype"			"scalable_image"
+			// "backgroundtype"		"2"
+
+			// "image"					"replay/graydialogborder"
+			// "src_corner_height"		"24"				// pixels inside the image
+			// "src_corner_width"		"24"
+			// "draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
+			// "draw_corner_height" 	"11"
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-
+			
 			"image"					"replay/graydialogborder"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"11"
+			"draw_corner_height" 	"11"	
 		}
 		ReplayOutlinedGreyBox
 		{

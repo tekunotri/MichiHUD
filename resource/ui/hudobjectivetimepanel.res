@@ -6,31 +6,24 @@
 		"fieldName"		"TimePanelBG"
 
 		"xpos"			"17"
-		// "xpos_minmode"	"35"
 		"ypos"			"9"
 		"zpos"			"2"
 
 		"wide"			"76"
-		"wide_minmode"	"38"
 		"tall"			"33"
-		"tall_minmode"	"23"
 
 		"visible"		"1"
 		"enabled"		"1"
 
 		"image"			"../hud/objectives_timepanel_blue_bg"
-		"scaleImage"		"1"
-
-		// "image"			"../hud/color_panel_brown"
-		// "teambg_2"		"../hud/color_panel_red"
-		// "teambg_3"		"../hud/color_panel_blu"
+		"scaleImage"	"1"
 
 		"src_corner_height"		"23"
 		"src_corner_width"		"23"
 		"draw_corner_width"		"5"
-		"draw_corner_height" 	"5"
+		"draw_corner_height"	"5"
 
-		if_match
+		"if_match"
 		{
 			"visible"	"0"
 		}
@@ -38,30 +31,28 @@
 
 	"TimePanelProgressBar"
 	{
-		"ControlName"			"CTFProgressBar"
+		"ControlName"		"CTFProgressBar"
 		"fieldName"			"TimePanelProgressBar"
-		"xpos"				"67"
-		"xpos_hidef"		"159"
-		"xpos_lodef"		"165"
-		"ypos"				"16"
-		"ypos_hidef"		"15"
-		"ypos_lodef"		"16"
-		"zpos"				"4"
-		"wide"				"20"
-		"wide_lodef"		"25"
-		"tall"				"20"
-		"tall_lodef"		"25"
-		"visible"			"1"
-		"visible_minmode"	"0"
-		"enabled"			"1"
-		"scaleImage"			"1"
-		"image"				"../hud/objectives_timepanel_progressbar"
-		"color_active"			"TimerProgress.Active"
-		"color_inactive"		"TimerProgress.InActive"
-		"color_warning"			"TimerProgress.Warning"
-		"percent_warning"		"0.75"
 
-		if_match
+		"xpos"				"67"
+		"ypos"				"16"
+		"zpos"				"4"
+
+		"wide"				"20"
+		"tall"				"20"
+
+		"visible"			"1"
+		"enabled"			"1"
+
+		"scaleImage"		"1"
+		"image"				"../hud/objectives_timepanel_progressbar"
+
+		"color_active"		"TimerProgress.Active"
+		"color_inactive"	"TimerProgress.InActive"
+		"color_warning"		"TimerProgress.Warning"
+		"percent_warning"	"0.75"
+
+		"if_match"
 		{
 			"visible"	"0"
 		}
@@ -74,44 +65,30 @@
 
 		"xpos"			"16"
 		"ypos"			"33"
-		"ypos_minmode"	"34"
 		"zpos"			"5"
 
 		"wide"			"78"
-		// "wide"			"p1"
-		// "wide_hidef"	"300"
-		// "wide_lodef"	"300"
 		"tall"			"19"
-		// "tall_hidef"	"19"
-		// "tall_lodef"	"22"
 
 		"visible"		"0"
 		"enabled"		"1"
 
 		"labelText"		"#game_WaitingForPlayers"
-		"textAlignment"		"center"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"			"0"
+		"textAlignment"	"center"
 		"font"			"ClockSubTextTiny"
-		"font_hidef"	"HudFontSmall"
-		"font_lodef"	"HudFontSmall"
 
-		if_match
+		"if_match"
 		{
-			"xpos"			"28"
-			"ypos"			"20"
-			"ypos_minmode"	"24"
+			"xpos"		"28"
+			"ypos"		"20"
 
-			"font"					"HudFontSmallestBold"
-			"font_hidef"			"HudFontSmallestBold"
-			"font_lodef"			"HudFontSmallestBold"
+			"font"		"HudFontSmallestBold"
 		}
 	}
 
 	"WaitingForPlayersBG"
 	{
-		"ControlName"		"CTFImagePanel"
+		"ControlName"	"CTFImagePanel"
 		"fieldName"		"WaitingForPlayersBG"
 
 		"xpos"			"16"
@@ -120,71 +97,58 @@
 
 		"wide"			"78"
 		"tall"			"20"
-		"tall_minmode"	"0"
 
 		"visible"		"0"
 		"enabled"		"1"
 
-		"image"			"../hud/objectives_timepanel_suddendeath"	
-		"scaleImage"		"1"	
+		"image"			"../hud/objectives_timepanel_suddendeath"
+		"scaleImage"	"1"
 
-		if_match
+		"if_match"
 		{
-			"wide"	"0"
+			"wide"		"0"
 		}
 	}
 
 	"OvertimeLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"OvertimeLabel"
+
 		"xpos"			"16"
-		"xpos_hidef"	"0"
-		"xpos_lodef"	"0"
 		"ypos"			"33"
-		"ypos_minmode"	"24"
-		"ypos_hidef"	"41"
-		"ypos_lodef"	"41"
 		"zpos"			"5"
+
 		"wide"			"78"
-		"wide_hidef"	"300"
-		"wide_lodef"	"300"
 		"tall"			"19"
-		"tall_hidef"	"19"
-		"tall_lodef"	"22"
+
 		"visible"		"0"
 		"enabled"		"1"
-		"labelText"		"#game_Overtime"
-		"textAlignment"		"center"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"			"0"
-		"font"			"ClockSubText"
-		"font_hidef"	"HudFontSmall"
-		"font_lodef"	"HudFontSmall"
 
-		if_match
+		"labelText"		"#game_Overtime"
+		"textAlignment"	"center"
+		"font"			"ClockSubText"
+
+		"if_match"
 		{
-			"proportionaltoparent"	"1"
 			"xpos"					"0"
 			"ypos"					"18"
-			"ypos_minmode"			"18"
+
 			"wide"					"p1"
+
+			"proportionaltoparent"	"1"
+
 			"font"					"HudFontSmallestBold"
-			"font_hidef"			"HudFontSmallestBold"
-			"font_lodef"			"HudFontSmallestBold"
 		}
 	}
 
 	"OvertimeBG"
 	{
-		"ControlName"		"CTFImagePanel"
+		"ControlName"	"CTFImagePanel"
 		"fieldName"		"OvertimeBG"
 
 		"xpos"			"16"
 		"ypos"			"31"
-		"ypos_hidef"	"-100"	//off-screen
-		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"1"
 
 		"wide"			"78"
@@ -197,7 +161,7 @@
 		"image"			"../hud/objectives_timepanel_suddendeath"
 		"scaleImage"		"1"
 
-		if_match
+		"if_match"
 		{
 			"wide"	"0"
 		}
@@ -205,65 +169,55 @@
 
 	"SuddenDeathLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"SuddenDeathLabel"
+
 		"xpos"			"16"
-		"xpos_hidef"	"0"
-		"xpos_lodef"	"0"
 		"ypos"			"33"
-		"ypos_minmode"	"24"
-		"ypos_hidef"	"41"
-		"ypos_lodef"	"41"
 		"zpos"			"5"
+
 		"wide"			"78"
-		"wide_hidef"	"300"
-		"wide_lodef"	"300"
 		"tall"			"19"
-		"tall_hidef"	"19"
-		"tall_lodef"	"22"
+
 		"visible"		"0"
 		"enabled"		"1"
-		"labelText"		"#game_SuddenDeath"
-		"textAlignment"		"center"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"			"0"
-		"font"			"ClockSubTextSuddenDeath"
-		"font_hidef"	"HudFontSmall"
-		"font_lodef"	"HudFontSmall"
 
-		if_match
+		"labelText"		"#game_SuddenDeath"
+		"textAlignment"	"center"
+		"font"			"ClockSubTextSuddenDeath"
+
+		"if_match"
 		{
-			"proportionaltoparent"	"1"
 			"xpos"					"0"
 			"ypos"					"18"
-			"ypos_minmode"			"18"
+
 			"wide"					"p1"
+
+			"proportionaltoparent"	"1"
+
 			"font"					"HudFontSmallestBold"
-			"font_hidef"			"HudFontSmallestBold"
-			"font_lodef"			"HudFontSmallestBold"
 		}
 	}
 
 	"SuddenDeathBG"
 	{
-		"ControlName"		"CTFImagePanel"
+		"ControlName"	"CTFImagePanel"
 		"fieldName"		"SuddenDeathBG"
-		"xpos"			"16"	[$WIN32]
-		"xpos"			"11"	[$X360]
+
+		"xpos"			"16"
 		"ypos"			"31"
-		"ypos_hidef"	"-100"	//off-screen
-		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"1"
+
 		"wide"			"78"
 		"tall"			"20"
-		"tall_minmode"	"0"
+
 		"visible"		"0"
 		"enabled"		"1"
+
 		"image"			"../hud/objectives_timepanel_suddendeath"
 		"scaleImage"		"1"
 
-		if_match
+		"if_match"
 		{
 			"wide"	"0"
 		}
@@ -275,69 +229,52 @@
 		"fieldName"		"SetupLabel"
 
 		"xpos"			"16"
-		"xpos_hidef"	"0"
-		"xpos_lodef"	"0"
 		"ypos"			"33"
-		"ypos_minmode"	"24"
-		"ypos_hidef"	"41"
-		"ypos_lodef"	"41"
 		"zpos"			"5"
 
 		"wide"			"78"
-		"wide_hidef"	"300"
-		"wide_lodef"	"300"
 		"tall"			"19"
-		"tall_hidef"	"19"
-		"tall_lodef"	"22"
 
 		"visible"		"0"
 		"enabled"		"1"
 
 		"labelText"		"#game_Setup"
-		"textAlignment"		"center"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"			"0"
+		"textAlignment"	"center"
+
 		"font"			"ClockSubText"
-		"font_minmode"	"ClockSubTextSuddenDeath"
-		"font_hidef"	"HudFontSmall"
-		"font_lodef"	"HudFontSmall"
 
-		if_match
+		"if_match"
 		{
-			"proportionaltoparent"	"1"
-
 			"xpos"					"0"
 			"ypos"					"18"
-			"ypos_minmode"			"18"
 
 			"wide"					"p1"
 
+			"proportionaltoparent"	"1"
+
 			"font"					"HudFontSmallestBold"
-			"font_hidef"			"HudFontSmallestBold"
-			"font_lodef"			"HudFontSmallestBold"
 		}
 	}
 
 	"SetupBG"
 	{
-		"ControlName"		"CTFImagePanel"
+		"ControlName"	"CTFImagePanel"
 		"fieldName"		"SetupBG"
-		"xpos"			"16"	[$WIN32]
-		"xpos"			"11"	[$X360]
+
+		"xpos"			"16"
 		"ypos"			"31"
-		"ypos_hidef"	"-100"	//off-screen
-		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"1"
+
 		"wide"			"78"
 		"tall"			"20"
-		"tall_minmode"	"0"
+
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../hud/objectives_timepanel_suddendeath"
-		"scaleImage"		"1"
 
-		if_match
+		"image"			"../hud/objectives_timepanel_suddendeath"
+		"scaleImage"	"1"
+
+		"if_match"
 		{
 			"wide"	"0"
 		}
@@ -347,64 +284,53 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ServerTimeLimitLabel"
+
 		"xpos"			"16"
-		"xpos_hidef"	"0"
-		"xpos_lodef"	"0"
 		"ypos"			"33"
-		"ypos_minmode"	"24"
-		"ypos_hidef"	"41"
-		"ypos_lodef"	"41"
 		"zpos"			"5"
+
 		"wide"			"78"
-		"wide_hidef"	"300"
-		"wide_lodef"	"300"
 		"tall"			"19"
-		"tall_hidef"	"19"
-		"tall_lodef"	"22"
+
 		"visible"		"0"
 		"enabled"		"1"
-		"labelText"		"%servertimeleft%"
-		"textAlignment"		"center"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"			"0"
-		"font"			"ClockSubText"
-		"font_minmode"	"ClockSubTextSuddenDeath"
-		"font_hidef"	"HudFontSmall"
-		"font_lodef"	"HudFontSmall"
 
-		if_match
+		"labelText"		"%servertimeleft%"
+		"textAlignment"	"center"
+		"font"			"ClockSubText"
+
+		"if_match"
 		{
-			"proportionaltoparent"	"1"
 			"xpos"					"0"
 			"ypos"					"18"
-			"ypos_minmode"			"18"
+
 			"wide"					"p1"
+
+			"proportionaltoparent"	"1"
+
 			"font"					"HudFontSmallestBold"
-			"font_hidef"			"HudFontSmallestBold"
-			"font_lodef"			"HudFontSmallestBold"
 		}
 	}
 
 	"ServerTimeLimitLabelBG"
 	{
-		"ControlName"		"CTFImagePanel"
+		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ServerTimeLimitLabelBG"
-		"xpos"			"16"	[$WIN32]
-		"xpos"			"11"	[$X360]
+
+		"xpos"			"16"
 		"ypos"			"31"
-		"ypos_hidef"	"-100"	//off-screen
-		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"1"
+
 		"wide"			"78"
 		"tall"			"20"
-		"tall_minmode"	"0"
+
 		"visible"		"0"
 		"enabled"		"1"
+
 		"image"			"../hud/objectives_timepanel_suddendeath"
 		"scaleImage"		"1"
 
-		if_match
+		"if_match"
 		{
 			"wide"	"0"
 		}
